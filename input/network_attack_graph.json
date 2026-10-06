@@ -1,0 +1,2033 @@
+{
+  "combined_conditions": {
+    "nodes": [
+      [
+        "6_LOW",
+        {
+          "asset": "Ubuntu Server 20.04 LTS",
+          "version": null,
+          "ip": "192.168.30.8",
+          "mac": "02:42:c0:a8:1e:08",
+          "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+          "impact": 0,
+          "initial_condition": "YES",
+          "node_type": "asset"
+        }
+      ],
+      [
+        "6_HIGH",
+        {
+          "asset": "Ubuntu Server 20.04 LTS",
+          "version": null,
+          "ip": "192.168.30.8",
+          "mac": "02:42:c0:a8:1e:08",
+          "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+          "impact": 0,
+          "initial_condition": "No",
+          "node_type": "asset"
+        }
+      ],
+      [
+        "CVE-2021-44228_6",
+        {
+          "cve_id": "CVE-2021-44228",
+          "cve_score": "10.0",
+          "asset": "Ubuntu Server 20.04 LTS",
+          "ip": "192.168.30.8",
+          "port": null,
+          "source": "OS",
+          "defense_ids": [],
+          "required_access": "NONE",
+          "connection_type": "NETWORK",
+          "gained_access": "HIGH",
+          "node_type": "cve"
+        }
+      ],
+      [
+        "Misconfig-6_6",
+        {
+          "misconf_name": "Default Vagrant Credentials",
+          "risk_factor": "Critical",
+          "asset": "Ubuntu Server 20.04 LTS",
+          "ip": "192.168.30.8",
+          "port": null,
+          "source": "OS",
+          "solution_description": "Change credentials immediately.",
+          "node_type": "misconfiguration",
+          "misconfig_id": 6
+        }
+      ],
+      [
+        "5_HIGH",
+        {
+          "asset": "Ubuntu Server 20.04 LTS",
+          "version": null,
+          "ip": "192.168.30.4",
+          "mac": "02:42:c0:a8:1e:04",
+          "impact": 0,
+          "initial_condition": "No",
+          "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+          "node_type": "asset"
+        }
+      ],
+      [
+        "CVE-2021-44228_5",
+        {
+          "cve_id": "CVE-2021-44228",
+          "asset": "Ubuntu Server 20.04 LTS",
+          "cve_score": "10.0",
+          "ip": "192.168.30.4",
+          "port": null,
+          "source": "OS",
+          "defense_ids": [],
+          "required_access": "NONE",
+          "connection_type": "NETWORK",
+          "gained_access": "HIGH",
+          "node_type": "cve"
+        }
+      ],
+      [
+        "5_LOW",
+        {
+          "asset": "Ubuntu Server 20.04 LTS",
+          "version": null,
+          "ip": "192.168.30.4",
+          "mac": "02:42:c0:a8:1e:04",
+          "impact": 0,
+          "initial_condition": "YES",
+          "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+          "node_type": "asset"
+        }
+      ],
+      [
+        "CVE-2016-20012_5",
+        {
+          "cve_id": "CVE-2016-20012",
+          "asset": "SSH Default Credentials",
+          "cve_score": "5.3",
+          "ip": "192.168.30.4",
+          "port": 22,
+          "source": "SERVICE",
+          "defense_ids": [],
+          "required_access": "NONE",
+          "connection_type": "NETWORK",
+          "gained_access": "LOW",
+          "node_type": "cve"
+        }
+      ],
+      [
+        "Misconfig-5_5",
+        {
+          "misconf_name": "Default Vagrant Credentials",
+          "risk_factor": "Critical",
+          "asset": "Ubuntu Server 20.04 LTS",
+          "ip": "192.168.30.4",
+          "port": null,
+          "source": "OS",
+          "solution_description": "Change credentials immediately.",
+          "node_type": "misconfiguration",
+          "misconfig_id": 5
+        }
+      ],
+      [
+        "7_HIGH",
+        {
+          "asset": "Ubuntu Server 20.04 LTS",
+          "version": null,
+          "ip": "192.168.30.2",
+          "mac": "02:42:c0:a8:1e:02",
+          "impact": 0,
+          "initial_condition": "No",
+          "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+          "node_type": "asset"
+        }
+      ],
+      [
+        "CVE-2021-44228_7",
+        {
+          "cve_id": "CVE-2021-44228",
+          "asset": "Ubuntu Server 20.04 LTS",
+          "cve_score": "10.0",
+          "ip": "192.168.30.2",
+          "port": null,
+          "source": "OS",
+          "defense_ids": [],
+          "required_access": "NONE",
+          "connection_type": "NETWORK",
+          "gained_access": "HIGH",
+          "node_type": "cve"
+        }
+      ],
+      [
+        "Misconfig-7_7",
+        {
+          "misconf_name": "Weak Scan Agent Credentials",
+          "risk_factor": "High",
+          "asset": "Scan Agent Weak Authentication",
+          "ip": "192.168.30.2",
+          "port": 8080,
+          "source": "SERVICE",
+          "solution_description": "Change to strong credentials.",
+          "node_type": "misconfiguration",
+          "misconfig_id": 7
+        }
+      ],
+      [
+        "2_HIGH",
+        {
+          "asset": "Ubuntu Server 20.04 LTS",
+          "version": null,
+          "ip": "192.168.10.37",
+          "mac": "02:42:c0:a8:0a:25",
+          "impact": 0,
+          "initial_condition": "No",
+          "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+          "node_type": "asset"
+        }
+      ],
+      [
+        "CVE-2021-44228_2",
+        {
+          "cve_id": "CVE-2021-44228",
+          "asset": "Ubuntu Server 20.04 LTS",
+          "cve_score": "10.0",
+          "ip": "192.168.10.37",
+          "port": null,
+          "source": "OS",
+          "defense_ids": [],
+          "required_access": "NONE",
+          "connection_type": "NETWORK",
+          "gained_access": "HIGH",
+          "node_type": "cve"
+        }
+      ],
+      [
+        "2_LOW",
+        {
+          "asset": "Ubuntu Server 20.04 LTS",
+          "version": null,
+          "ip": "192.168.10.37",
+          "mac": "02:42:c0:a8:0a:25",
+          "impact": 0,
+          "initial_condition": "No",
+          "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+          "node_type": "asset"
+        }
+      ],
+      [
+        "CVE-2016-20012_2",
+        {
+          "cve_id": "CVE-2016-20012",
+          "asset": "SSH Weak Authentication",
+          "cve_score": "5.3",
+          "ip": "192.168.10.37",
+          "port": 22,
+          "source": "SERVICE",
+          "defense_ids": [],
+          "required_access": "NONE",
+          "connection_type": "NETWORK",
+          "gained_access": "LOW",
+          "node_type": "cve"
+        }
+      ],
+      [
+        "Misconfig-2_2",
+        {
+          "misconf_name": "Default Vagrant Credentials",
+          "risk_factor": "Critical",
+          "asset": "Ubuntu Server 20.04 LTS",
+          "ip": "192.168.10.37",
+          "port": null,
+          "source": "OS",
+          "solution_description": "Change credentials.",
+          "node_type": "misconfiguration",
+          "misconfig_id": 2
+        }
+      ],
+      [
+        "3_HIGH",
+        {
+          "asset": "Windows Server 2019",
+          "version": null,
+          "ip": "192.168.10.14",
+          "mac": "02:42:c0:a8:0a:0e",
+          "impact": 0,
+          "initial_condition": "No",
+          "cpe": "cpe:/o:microsoft:windows_server_2019",
+          "node_type": "asset"
+        }
+      ],
+      [
+        "CVE-2021-44228_3",
+        {
+          "cve_id": "CVE-2021-44228",
+          "asset": "Windows Server 2019",
+          "cve_score": "10.0",
+          "ip": "192.168.10.14",
+          "port": null,
+          "source": "OS",
+          "defense_ids": [],
+          "required_access": "NONE",
+          "connection_type": "NETWORK",
+          "gained_access": "HIGH",
+          "node_type": "cve"
+        }
+      ],
+      [
+        "Misconfig-3_3",
+        {
+          "misconf_name": "Weak Administrator Password",
+          "risk_factor": "Critical",
+          "asset": "Windows Server 2019",
+          "ip": "192.168.10.14",
+          "port": null,
+          "source": "OS",
+          "solution_description": "Change to strong password.",
+          "node_type": "misconfiguration",
+          "misconfig_id": 3
+        }
+      ],
+      [
+        "4_HIGH",
+        {
+          "asset": "Ubuntu Desktop 20.04 LTS",
+          "version": null,
+          "ip": "192.168.10.39",
+          "mac": "02:42:c0:a8:0a:27",
+          "impact": 0,
+          "initial_condition": "No",
+          "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+          "node_type": "asset"
+        }
+      ],
+      [
+        "CVE-2021-44228_4",
+        {
+          "cve_id": "CVE-2021-44228",
+          "asset": "Ubuntu Desktop 20.04 LTS",
+          "cve_score": "10.0",
+          "ip": "192.168.10.39",
+          "port": null,
+          "source": "OS",
+          "defense_ids": [],
+          "required_access": "NONE",
+          "connection_type": "NETWORK",
+          "gained_access": "HIGH",
+          "node_type": "cve"
+        }
+      ],
+      [
+        "4_LOW",
+        {
+          "asset": "Ubuntu Desktop 20.04 LTS",
+          "version": null,
+          "ip": "192.168.10.39",
+          "mac": "02:42:c0:a8:0a:27",
+          "impact": 0,
+          "initial_condition": "No",
+          "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+          "node_type": "asset"
+        }
+      ],
+      [
+        "CVE-2016-20012_4",
+        {
+          "cve_id": "CVE-2016-20012",
+          "asset": "SSH Weak Configuration",
+          "cve_score": "5.3",
+          "ip": "192.168.10.39",
+          "port": 22,
+          "source": "SERVICE",
+          "defense_ids": [],
+          "required_access": "NONE",
+          "connection_type": "NETWORK",
+          "gained_access": "LOW",
+          "node_type": "cve"
+        }
+      ],
+      [
+        "Misconfig-4_4",
+        {
+          "misconf_name": "Weak SSH Configuration",
+          "risk_factor": "Medium",
+          "asset": "SSH Weak Configuration",
+          "ip": "192.168.10.39",
+          "port": 22,
+          "source": "SERVICE",
+          "solution_description": "Configure key-based auth only.",
+          "node_type": "misconfiguration",
+          "misconfig_id": 4
+        }
+      ],
+      [
+        "1_HIGH",
+        {
+          "asset": "Ubuntu Server 20.04 LTS",
+          "version": null,
+          "ip": "192.168.10.36",
+          "mac": "4242klmkd4fgj:uugc9sf:a8:0a:24",
+          "impact": 0,
+          "initial_condition": "No",
+          "cpe": "cpe:/o:ca3nonical:ubuntu_linux:20.04",
+          "node_type": "asset"
+        }
+      ],
+      [
+        "CVE-2021-44228_1",
+        {
+          "cve_id": "CVE-2021-44228",
+          "asset": "Ubuntu Server 20.04 LTS",
+          "cve_score": "10.0",
+          "ip": "192.168.10.36",
+          "port": null,
+          "source": "OS",
+          "defense_ids": [],
+          "required_access": "NONE",
+          "connection_type": "NETWORK",
+          "gained_access": "HIGH",
+          "node_type": "cve"
+        }
+      ],
+      [
+        "1_LOW",
+        {
+          "asset": "Ubuntu Server 20.04 LTS",
+          "version": null,
+          "ip": "192.168.10.36",
+          "mac": "4242klmkd4fgj:uugc9sf:a8:0a:24",
+          "impact": 0,
+          "initial_condition": "No",
+          "cpe": "cpe:/o:ca3nonical:ubuntu_linux:20.04",
+          "node_type": "asset"
+        }
+      ],
+      [
+        "CVE-2016-20012_1",
+        {
+          "cve_id": "CVE-2016-20012",
+          "asset": "SSH Weak Authentication",
+          "cve_score": "5.3",
+          "ip": "192.168.10.36",
+          "port": 22,
+          "source": "SERVICE",
+          "defense_ids": [],
+          "required_access": "NONE",
+          "connection_type": "NETWORK",
+          "gained_access": "LOW",
+          "node_type": "cve"
+        }
+      ],
+      [
+        "Misconfig-1_1",
+        {
+          "misconf_name": "Default Vagrant Credentials",
+          "risk_factor": "Critical",
+          "asset": "Ubuntu Server 20.04 LTS",
+          "ip": "192.168.10.36",
+          "port": null,
+          "source": "OS",
+          "solution_description": "Change credentials.",
+          "node_type": "misconfiguration",
+          "misconfig_id": 1
+        }
+      ],
+      [
+        "11_LOW",
+        {
+          "asset": "Ubunctu Serve",
+          "version": null,
+          "ip": "172.16.16.18",
+          "mac": "0dknc1k2",
+          "impact": 0,
+          "initial_condition": "No",
+          "cpe": "cpe:/solinughx:20.04",
+          "node_type": "asset"
+        }
+      ],
+      [
+        "CVE-2016-20012_11",
+        {
+          "cve_id": "CVE-2016-20012",
+          "asset": "SSH Default Credentials",
+          "cve_score": "5.3",
+          "ip": "172.16.16.18",
+          "port": 22,
+          "source": "SERVICE",
+          "defense_ids": [],
+          "required_access": "NONE",
+          "connection_type": "NETWORK",
+          "gained_access": "LOW",
+          "node_type": "cve"
+        }
+      ],
+      [
+        "12_HIGH",
+        {
+          "asset": "Ubuntu Server 20.04 LTS",
+          "version": null,
+          "ip": "172.16.16.19",
+          "mac": "02:42:aeefec:10:10:13",
+          "impact": 0,
+          "initial_condition": "No",
+          "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+          "node_type": "asset"
+        }
+      ],
+      [
+        "CVE-2021-44228_12",
+        {
+          "cve_id": "CVE-2021-44228",
+          "asset": "Ubuntu Server 20.04 LTS",
+          "cve_score": "10.0",
+          "ip": "172.16.16.19",
+          "port": null,
+          "source": "OS",
+          "defense_ids": [],
+          "required_access": "NONE",
+          "connection_type": "NETWORK",
+          "gained_access": "HIGH",
+          "node_type": "cve"
+        }
+      ],
+      [
+        "12_LOW",
+        {
+          "asset": "Ubuntu Server 20.04 LTS",
+          "version": null,
+          "ip": "172.16.16.19",
+          "mac": "02:42:aeefec:10:10:13",
+          "impact": 0,
+          "initial_condition": "No",
+          "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+          "node_type": "asset"
+        }
+      ],
+      [
+        "CVE-2016-20012_12",
+        {
+          "cve_id": "CVE-2016-20012",
+          "asset": "SSH Default Credentials",
+          "cve_score": "5.3",
+          "ip": "172.16.16.19",
+          "port": 22,
+          "source": "SERVICE",
+          "defense_ids": [],
+          "required_access": "NONE",
+          "connection_type": "NETWORK",
+          "gained_access": "LOW",
+          "node_type": "cve"
+        }
+      ],
+      [
+        "Misconfig-12_12",
+        {
+          "misconf_name": "Default Vagrant Credentials",
+          "risk_factor": "Critical",
+          "asset": "Ubuntu Server 20.04 LTS",
+          "ip": "172.16.16.19",
+          "port": null,
+          "source": "OS",
+          "solution_description": "Change credentials immediately.",
+          "node_type": "misconfiguration",
+          "misconfig_id": 12
+        }
+      ],
+      [
+        "11_HIGH",
+        {
+          "asset": "Ubunctu Serve",
+          "version": null,
+          "ip": "172.16.16.18",
+          "mac": "0dknc1k2",
+          "impact": 0,
+          "initial_condition": "No",
+          "cpe": "cpe:/solinughx:20.04",
+          "node_type": "asset"
+        }
+      ],
+      [
+        "CVE-2021-44228_11",
+        {
+          "cve_id": "CVE-2021-44228",
+          "asset": "Ubunctu Serve",
+          "cve_score": "10.0",
+          "ip": "172.16.16.18",
+          "port": null,
+          "source": "OS",
+          "defense_ids": [],
+          "required_access": "NONE",
+          "connection_type": "NETWORK",
+          "gained_access": "HIGH",
+          "node_type": "cve"
+        }
+      ],
+      [
+        "Misconfig-11_11",
+        {
+          "misconf_name": "Default Vagrant Credentials",
+          "risk_factor": "Critical",
+          "asset": "Ubunctu Serve",
+          "ip": "172.16.16.18",
+          "port": null,
+          "source": "OS",
+          "solution_description": "Change credentials immediately.",
+          "node_type": "misconfiguration",
+          "misconfig_id": 11
+        }
+      ],
+      [
+        "13_HIGH",
+        {
+          "asset": "Ubuntu Server 20.04 LTS",
+          "version": null,
+          "ip": "172.16.16.21",
+          "mac": "02:42:ac:10:10:15",
+          "impact": 0,
+          "initial_condition": "No",
+          "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+          "node_type": "asset"
+        }
+      ],
+      [
+        "CVE-2021-44228_13",
+        {
+          "cve_id": "CVE-2021-44228",
+          "asset": "Ubuntu Server 20.04 LTS",
+          "cve_score": "10.0",
+          "ip": "172.16.16.21",
+          "port": null,
+          "source": "OS",
+          "defense_ids": [],
+          "required_access": "NONE",
+          "connection_type": "NETWORK",
+          "gained_access": "HIGH",
+          "node_type": "cve"
+        }
+      ],
+      [
+        "Misconfig-13_13",
+        {
+          "misconf_name": "Weak Scan Agent Credentials",
+          "risk_factor": "High",
+          "asset": "Scan Agent Weak Authentication",
+          "ip": "172.16.16.21",
+          "port": 8080,
+          "source": "SERVICE",
+          "solution_description": "Change to strong credentials.",
+          "node_type": "misconfiguration",
+          "misconfig_id": 13
+        }
+      ],
+      [
+        "8_HIGH",
+        {
+          "asset": "Ubutu S04 LTS",
+          "version": null,
+          "ip": "192.168.40.5",
+          "mac": "02:4ZSSSZ2fgh:c:a8:28:05",
+          "impact": 0,
+          "initial_condition": "No",
+          "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+          "node_type": "asset"
+        }
+      ],
+      [
+        "CVE-2021-44228_8",
+        {
+          "cve_id": "CVE-2021-44228",
+          "asset": "Ubutu S04 LTS",
+          "cve_score": "10.0",
+          "ip": "192.168.40.5",
+          "port": null,
+          "source": "OS",
+          "defense_ids": [],
+          "required_access": "NONE",
+          "connection_type": "NETWORK",
+          "gained_access": "HIGH",
+          "node_type": "cve"
+        }
+      ],
+      [
+        "8_LOW",
+        {
+          "asset": "Ubutu S04 LTS",
+          "version": null,
+          "ip": "192.168.40.5",
+          "mac": "02:4ZSSSZ2fgh:c:a8:28:05",
+          "impact": 0,
+          "initial_condition": "No",
+          "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+          "node_type": "asset"
+        }
+      ],
+      [
+        "CVE-2016-20012_8",
+        {
+          "cve_id": "CVE-2016-20012",
+          "asset": "SSH Default Credentials",
+          "cve_score": "5.3",
+          "ip": "192.168.40.5",
+          "port": 22,
+          "source": "SERVICE",
+          "defense_ids": [],
+          "required_access": "NONE",
+          "connection_type": "NETWORK",
+          "gained_access": "LOW",
+          "node_type": "cve"
+        }
+      ],
+      [
+        "Misconfig-8_8",
+        {
+          "misconf_name": "Default Vagrant Credentials",
+          "risk_factor": "Critical",
+          "asset": "Ubutu S04 LTS",
+          "ip": "192.168.40.5",
+          "port": null,
+          "source": "OS",
+          "solution_description": "Change credentials immediately.",
+          "node_type": "misconfiguration",
+          "misconfig_id": 8
+        }
+      ],
+      [
+        "10_HIGH",
+        {
+          "asset": "Ubuntu Server 20.04 LTS",
+          "version": null,
+          "ip": "192.168.40.7",
+          "mac": "02:42:c0:a8:28:07",
+          "impact": 0,
+          "initial_condition": "No",
+          "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+          "node_type": "asset"
+        }
+      ],
+      [
+        "CVE-2021-44228_10",
+        {
+          "cve_id": "CVE-2021-44228",
+          "asset": "Ubuntu Server 20.04 LTS",
+          "cve_score": "10.0",
+          "ip": "192.168.40.7",
+          "port": null,
+          "source": "OS",
+          "defense_ids": [],
+          "required_access": "NONE",
+          "connection_type": "NETWORK",
+          "gained_access": "HIGH",
+          "node_type": "cve"
+        }
+      ],
+      [
+        "Misconfig-10_10",
+        {
+          "misconf_name": "Weak Scan Agent Credentials",
+          "risk_factor": "High",
+          "asset": "Scan Agent Weak Authentication",
+          "ip": "192.168.40.7",
+          "port": 8080,
+          "source": "SERVICE",
+          "solution_description": "Change to strong credentials.",
+          "node_type": "misconfiguration",
+          "misconfig_id": 10
+        }
+      ],
+      [
+        "9_HIGH",
+        {
+          "asset": "Ubuntu Server 20.04 LTS",
+          "version": null,
+          "ip": "192.168.40.2",
+          "mac": "02:42:c0:a8:28:02",
+          "impact": 0,
+          "initial_condition": "No",
+          "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+          "node_type": "asset"
+        }
+      ],
+      [
+        "CVE-2021-44228_9",
+        {
+          "cve_id": "CVE-2021-44228",
+          "asset": "Ubuntu Server 20.04 LTS",
+          "cve_score": "10.0",
+          "ip": "192.168.40.2",
+          "port": null,
+          "source": "OS",
+          "defense_ids": [],
+          "required_access": "NONE",
+          "connection_type": "NETWORK",
+          "gained_access": "HIGH",
+          "node_type": "cve"
+        }
+      ],
+      [
+        "9_LOW",
+        {
+          "asset": "Ubuntu Server 20.04 LTS",
+          "version": null,
+          "ip": "192.168.40.2",
+          "mac": "02:42:c0:a8:28:02",
+          "impact": 0,
+          "initial_condition": "No",
+          "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+          "node_type": "asset"
+        }
+      ],
+      [
+        "CVE-2016-20012_9",
+        {
+          "cve_id": "CVE-2016-20012",
+          "asset": "SSH Default Credentials",
+          "cve_score": "5.3",
+          "ip": "192.168.40.2",
+          "port": 22,
+          "source": "SERVICE",
+          "defense_ids": [],
+          "required_access": "NONE",
+          "connection_type": "NETWORK",
+          "gained_access": "LOW",
+          "node_type": "cve"
+        }
+      ],
+      [
+        "Misconfig-9_9",
+        {
+          "misconf_name": "Default Vagrant Credentials",
+          "risk_factor": "Critical",
+          "asset": "Ubuntu Server 20.04 LTS",
+          "ip": "192.168.40.2",
+          "port": null,
+          "source": "OS",
+          "solution_description": "Change credentials immediately.",
+          "node_type": "misconfiguration",
+          "misconfig_id": 9
+        }
+      ],
+      [
+        "CVE-2016-20012_6",
+        {
+          "cve_id": "CVE-2016-20012",
+          "asset": "SSH Default Credentials",
+          "cve_score": "5.3",
+          "ip": "192.168.30.8",
+          "port": 22,
+          "source": "SERVICE",
+          "defense_ids": [],
+          "required_access": "NONE",
+          "connection_type": "NETWORK",
+          "gained_access": "LOW",
+          "node_type": "cve"
+        }
+      ]
+    ],
+    "edges": [
+      [
+        "6_LOW",
+        "CVE-2021-44228_6",
+        {
+          "connection": "LOCAL",
+          "service_port": null
+        }
+      ],
+      [
+        "6_LOW",
+        "Misconfig-6_6",
+        {
+          "connection": "LOCAL",
+          "service_port": null
+        }
+      ],
+      [
+        "6_HIGH",
+        "CVE-2021-44228_5",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "6_HIGH",
+        "CVE-2016-20012_5",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "6_HIGH",
+        "Misconfig-5_5",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "6_HIGH",
+        "CVE-2021-44228_7",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 8080
+        }
+      ],
+      [
+        "6_HIGH",
+        "Misconfig-7_7",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 8080
+        }
+      ],
+      [
+        "6_HIGH",
+        "CVE-2021-44228_2",
+        {
+          "connection": "NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "6_HIGH",
+        "CVE-2016-20012_2",
+        {
+          "connection": "NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "6_HIGH",
+        "Misconfig-2_2",
+        {
+          "connection": "NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "6_HIGH",
+        "CVE-2021-44228_3",
+        {
+          "connection": "NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "6_HIGH",
+        "Misconfig-3_3",
+        {
+          "connection": "NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "CVE-2021-44228_6",
+        "6_HIGH",
+        {
+          "service_port": null
+        }
+      ],
+      [
+        "Misconfig-6_6",
+        "6_HIGH",
+        {
+          "service_port": null
+        }
+      ],
+      [
+        "5_HIGH",
+        "CVE-2021-44228_7",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 8080
+        }
+      ],
+      [
+        "5_HIGH",
+        "Misconfig-7_7",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 8080
+        }
+      ],
+      [
+        "5_HIGH",
+        "CVE-2021-44228_6",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "5_HIGH",
+        "CVE-2016-20012_6",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "5_HIGH",
+        "Misconfig-6_6",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "5_HIGH",
+        "CVE-2021-44228_2",
+        {
+          "connection": "NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "5_HIGH",
+        "CVE-2016-20012_2",
+        {
+          "connection": "NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "5_HIGH",
+        "Misconfig-2_2",
+        {
+          "connection": "NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "CVE-2021-44228_5",
+        "5_HIGH",
+        {
+          "service_port": null
+        }
+      ],
+      [
+        "5_LOW",
+        "CVE-2021-44228_5",
+        {
+          "connection": "LOCAL",
+          "service_port": null
+        }
+      ],
+      [
+        "5_LOW",
+        "Misconfig-5_5",
+        {
+          "connection": "LOCAL",
+          "service_port": null
+        }
+      ],
+      [
+        "CVE-2016-20012_5",
+        "5_LOW",
+        {
+          "service_port": 22
+        }
+      ],
+      [
+        "Misconfig-5_5",
+        "5_HIGH",
+        {
+          "service_port": null
+        }
+      ],
+      [
+        "7_HIGH",
+        "CVE-2021-44228_5",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "7_HIGH",
+        "CVE-2016-20012_5",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "7_HIGH",
+        "Misconfig-5_5",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "7_HIGH",
+        "CVE-2021-44228_6",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "7_HIGH",
+        "CVE-2016-20012_6",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "7_HIGH",
+        "Misconfig-6_6",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "CVE-2021-44228_7",
+        "7_HIGH",
+        {
+          "service_port": 8080
+        }
+      ],
+      [
+        "Misconfig-7_7",
+        "7_HIGH",
+        {
+          "service_port": 8080
+        }
+      ],
+      [
+        "2_HIGH",
+        "CVE-2016-20012_11",
+        {
+          "connection": "NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "2_HIGH",
+        "CVE-2021-44228_12",
+        {
+          "connection": "NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "2_HIGH",
+        "CVE-2016-20012_12",
+        {
+          "connection": "NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "2_HIGH",
+        "Misconfig-12_12",
+        {
+          "connection": "NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "2_HIGH",
+        "CVE-2021-44228_4",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "2_HIGH",
+        "CVE-2016-20012_4",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "2_HIGH",
+        "Misconfig-4_4",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "2_HIGH",
+        "CVE-2021-44228_3",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "2_HIGH",
+        "Misconfig-3_3",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "2_HIGH",
+        "CVE-2021-44228_1",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "2_HIGH",
+        "CVE-2016-20012_1",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "2_HIGH",
+        "Misconfig-1_1",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "CVE-2021-44228_2",
+        "2_HIGH",
+        {
+          "service_port": null
+        }
+      ],
+      [
+        "2_LOW",
+        "CVE-2021-44228_2",
+        {
+          "connection": "LOCAL",
+          "service_port": null
+        }
+      ],
+      [
+        "2_LOW",
+        "Misconfig-2_2",
+        {
+          "connection": "LOCAL",
+          "service_port": null
+        }
+      ],
+      [
+        "CVE-2016-20012_2",
+        "2_LOW",
+        {
+          "service_port": 22
+        }
+      ],
+      [
+        "Misconfig-2_2",
+        "2_HIGH",
+        {
+          "service_port": null
+        }
+      ],
+      [
+        "3_HIGH",
+        "CVE-2021-44228_4",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "3_HIGH",
+        "CVE-2016-20012_4",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "3_HIGH",
+        "Misconfig-4_4",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "3_HIGH",
+        "CVE-2021-44228_1",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "3_HIGH",
+        "CVE-2016-20012_1",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "3_HIGH",
+        "Misconfig-1_1",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "3_HIGH",
+        "CVE-2021-44228_2",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "3_HIGH",
+        "CVE-2016-20012_2",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "3_HIGH",
+        "Misconfig-2_2",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "CVE-2021-44228_3",
+        "3_HIGH",
+        {
+          "service_port": null
+        }
+      ],
+      [
+        "Misconfig-3_3",
+        "3_HIGH",
+        {
+          "service_port": null
+        }
+      ],
+      [
+        "4_HIGH",
+        "CVE-2021-44228_3",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "4_HIGH",
+        "Misconfig-3_3",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "4_HIGH",
+        "CVE-2021-44228_1",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "4_HIGH",
+        "CVE-2016-20012_1",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "4_HIGH",
+        "Misconfig-1_1",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "4_HIGH",
+        "CVE-2021-44228_2",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "4_HIGH",
+        "CVE-2016-20012_2",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "4_HIGH",
+        "Misconfig-2_2",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "CVE-2021-44228_4",
+        "4_HIGH",
+        {
+          "service_port": null
+        }
+      ],
+      [
+        "4_LOW",
+        "CVE-2021-44228_4",
+        {
+          "connection": "LOCAL",
+          "service_port": null
+        }
+      ],
+      [
+        "4_LOW",
+        "Misconfig-4_4",
+        {
+          "connection": "LOCAL",
+          "service_port": 22
+        }
+      ],
+      [
+        "CVE-2016-20012_4",
+        "4_LOW",
+        {
+          "service_port": 22
+        }
+      ],
+      [
+        "Misconfig-4_4",
+        "4_HIGH",
+        {
+          "service_port": 22
+        }
+      ],
+      [
+        "1_HIGH",
+        "CVE-2021-44228_12",
+        {
+          "connection": "NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "1_HIGH",
+        "CVE-2016-20012_12",
+        {
+          "connection": "NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "1_HIGH",
+        "Misconfig-12_12",
+        {
+          "connection": "NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "1_HIGH",
+        "CVE-2021-44228_4",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "1_HIGH",
+        "CVE-2016-20012_4",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "1_HIGH",
+        "Misconfig-4_4",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "1_HIGH",
+        "CVE-2021-44228_3",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "1_HIGH",
+        "Misconfig-3_3",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "1_HIGH",
+        "CVE-2021-44228_2",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "1_HIGH",
+        "CVE-2016-20012_2",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "1_HIGH",
+        "Misconfig-2_2",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "CVE-2021-44228_1",
+        "1_HIGH",
+        {
+          "service_port": null
+        }
+      ],
+      [
+        "1_LOW",
+        "CVE-2021-44228_1",
+        {
+          "connection": "LOCAL",
+          "service_port": null
+        }
+      ],
+      [
+        "1_LOW",
+        "Misconfig-1_1",
+        {
+          "connection": "LOCAL",
+          "service_port": null
+        }
+      ],
+      [
+        "CVE-2016-20012_1",
+        "1_LOW",
+        {
+          "service_port": 22
+        }
+      ],
+      [
+        "Misconfig-1_1",
+        "1_HIGH",
+        {
+          "service_port": null
+        }
+      ],
+      [
+        "11_LOW",
+        "CVE-2021-44228_11",
+        {
+          "connection": "LOCAL",
+          "service_port": null
+        }
+      ],
+      [
+        "11_LOW",
+        "Misconfig-11_11",
+        {
+          "connection": "LOCAL",
+          "service_port": null
+        }
+      ],
+      [
+        "CVE-2016-20012_11",
+        "11_LOW",
+        {
+          "service_port": 22
+        }
+      ],
+      [
+        "12_HIGH",
+        "CVE-2021-44228_11",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "12_HIGH",
+        "CVE-2016-20012_11",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "12_HIGH",
+        "Misconfig-11_11",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "12_HIGH",
+        "CVE-2021-44228_13",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 8080
+        }
+      ],
+      [
+        "12_HIGH",
+        "Misconfig-13_13",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 8080
+        }
+      ],
+      [
+        "12_HIGH",
+        "CVE-2021-44228_8",
+        {
+          "connection": "NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "12_HIGH",
+        "CVE-2016-20012_8",
+        {
+          "connection": "NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "12_HIGH",
+        "Misconfig-8_8",
+        {
+          "connection": "NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "CVE-2021-44228_12",
+        "12_HIGH",
+        {
+          "service_port": null
+        }
+      ],
+      [
+        "12_LOW",
+        "CVE-2021-44228_12",
+        {
+          "connection": "LOCAL",
+          "service_port": null
+        }
+      ],
+      [
+        "12_LOW",
+        "Misconfig-12_12",
+        {
+          "connection": "LOCAL",
+          "service_port": null
+        }
+      ],
+      [
+        "CVE-2016-20012_12",
+        "12_LOW",
+        {
+          "service_port": 22
+        }
+      ],
+      [
+        "Misconfig-12_12",
+        "12_HIGH",
+        {
+          "service_port": null
+        }
+      ],
+      [
+        "11_HIGH",
+        "CVE-2021-44228_12",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "11_HIGH",
+        "CVE-2016-20012_12",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "11_HIGH",
+        "Misconfig-12_12",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "11_HIGH",
+        "CVE-2021-44228_13",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 8080
+        }
+      ],
+      [
+        "11_HIGH",
+        "Misconfig-13_13",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 8080
+        }
+      ],
+      [
+        "11_HIGH",
+        "CVE-2021-44228_8",
+        {
+          "connection": "NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "11_HIGH",
+        "CVE-2016-20012_8",
+        {
+          "connection": "NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "11_HIGH",
+        "Misconfig-8_8",
+        {
+          "connection": "NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "CVE-2021-44228_11",
+        "11_HIGH",
+        {
+          "service_port": null
+        }
+      ],
+      [
+        "Misconfig-11_11",
+        "11_HIGH",
+        {
+          "service_port": null
+        }
+      ],
+      [
+        "13_HIGH",
+        "CVE-2021-44228_11",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "13_HIGH",
+        "CVE-2016-20012_11",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "13_HIGH",
+        "Misconfig-11_11",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "13_HIGH",
+        "CVE-2021-44228_12",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "13_HIGH",
+        "CVE-2016-20012_12",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "13_HIGH",
+        "Misconfig-12_12",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "CVE-2021-44228_13",
+        "13_HIGH",
+        {
+          "service_port": 8080
+        }
+      ],
+      [
+        "Misconfig-13_13",
+        "13_HIGH",
+        {
+          "service_port": 8080
+        }
+      ],
+      [
+        "8_HIGH",
+        "CVE-2021-44228_10",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 8080
+        }
+      ],
+      [
+        "8_HIGH",
+        "Misconfig-10_10",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 8080
+        }
+      ],
+      [
+        "8_HIGH",
+        "CVE-2021-44228_9",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "8_HIGH",
+        "CVE-2016-20012_9",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "8_HIGH",
+        "Misconfig-9_9",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "CVE-2021-44228_8",
+        "8_HIGH",
+        {
+          "service_port": null
+        }
+      ],
+      [
+        "8_LOW",
+        "CVE-2021-44228_8",
+        {
+          "connection": "LOCAL",
+          "service_port": null
+        }
+      ],
+      [
+        "8_LOW",
+        "Misconfig-8_8",
+        {
+          "connection": "LOCAL",
+          "service_port": null
+        }
+      ],
+      [
+        "CVE-2016-20012_8",
+        "8_LOW",
+        {
+          "service_port": 22
+        }
+      ],
+      [
+        "Misconfig-8_8",
+        "8_HIGH",
+        {
+          "service_port": null
+        }
+      ],
+      [
+        "10_HIGH",
+        "CVE-2021-44228_8",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "10_HIGH",
+        "CVE-2016-20012_8",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "10_HIGH",
+        "Misconfig-8_8",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "10_HIGH",
+        "CVE-2021-44228_9",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "10_HIGH",
+        "CVE-2016-20012_9",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "10_HIGH",
+        "Misconfig-9_9",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "CVE-2021-44228_10",
+        "10_HIGH",
+        {
+          "service_port": 8080
+        }
+      ],
+      [
+        "Misconfig-10_10",
+        "10_HIGH",
+        {
+          "service_port": 8080
+        }
+      ],
+      [
+        "9_HIGH",
+        "CVE-2021-44228_10",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 8080
+        }
+      ],
+      [
+        "9_HIGH",
+        "Misconfig-10_10",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 8080
+        }
+      ],
+      [
+        "9_HIGH",
+        "CVE-2021-44228_8",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "9_HIGH",
+        "CVE-2016-20012_8",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": 22
+        }
+      ],
+      [
+        "9_HIGH",
+        "Misconfig-9_9",
+        {
+          "connection": "ADJACENT_NETWORK",
+          "service_port": null
+        }
+      ],
+      [
+        "CVE-2021-44228_9",
+        "9_HIGH",
+        {
+          "service_port": null
+        }
+      ],
+      [
+        "9_LOW",
+        "CVE-2021-44228_9",
+        {
+          "connection": "LOCAL",
+          "service_port": null
+        }
+      ],
+      [
+        "9_LOW",
+        "Misconfig-9_9",
+        {
+          "connection": "LOCAL",
+          "service_port": null
+        }
+      ],
+      [
+        "CVE-2016-20012_9",
+        "9_LOW",
+        {
+          "service_port": 22
+        }
+      ],
+      [
+        "Misconfig-9_9",
+        "9_HIGH",
+        {
+          "service_port": null
+        }
+      ],
+      [
+        "CVE-2016-20012_6",
+        "6_LOW",
+        {
+          "service_port": 22
+        }
+      ]
+    ]
+  }
+}

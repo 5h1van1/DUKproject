@@ -1,0 +1,4 @@
+ad_computer,network_host,network_node_id,status,correlation_method,confidence_score,evidence
+DESKTOP-982GIQR.ASPER.LOCAL,,,UNMATCHED,None,0.0,No candidates passed minimum score threshold
+DESKTOP-VCEDI9S.ASPER.LOCAL,,,UNMATCHED,None,0.0,No candidates passed minimum score threshold
+DESKTOP-0AKA5LN.ASPER.LOCAL,,,UNMATCHED,None,0.0,No candidates passed minimum score threshold

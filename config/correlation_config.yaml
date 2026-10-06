@@ -1,0 +1,17 @@
+scoring_weights:
+  dns_match_weight: 0.70
+  hostname_fuzzy_match_weight: 0.15
+  os_match_weight: 0.10
+  spn_service_match_weight: 0.05
+
+thresholds:
+  high_confidence_threshold: 0.70
+  low_confidence_threshold: 0.35
+
+dns_settings:
+  use_system_dns: false
+  fallback_mapping:
+    "WIN-2MQMGG03M1L.ASPER.LOCAL": "192.168.10.14"
+    "DESKTOP-982GIQR.ASPER.LOCAL": "192.168.10.36"
+    "DESKTOP-VCEDI9S.ASPER.LOCAL": "192.168.10.37"
+    "DESKTOP-0AKA5LN.ASPER.LOCAL": "192.168.10.39"

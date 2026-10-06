@@ -1,0 +1,115 @@
+{
+  "summary": {
+    "total_ad_computers": 4,
+    "total_network_hosts": 22,
+    "matched_count": 1,
+    "ambiguous_count": 0,
+    "unmatched_count": 3,
+    "method_counts": {
+      "DNS": 1,
+      "Hostname": 0,
+      "IP": 0,
+      "MAC": 0,
+      "Multi-evidence": 0
+    }
+  },
+  "all_records": [
+    {
+      "ad_computer": "DESKTOP-982GIQR.ASPER.LOCAL",
+      "network_host": null,
+      "network_node_id": null,
+      "status": "UNMATCHED",
+      "correlation_method": "None",
+      "confidence_score": 0.0,
+      "evidence": [
+        "No candidates passed minimum score threshold"
+      ]
+    },
+    {
+      "ad_computer": "DESKTOP-VCEDI9S.ASPER.LOCAL",
+      "network_host": null,
+      "network_node_id": null,
+      "status": "UNMATCHED",
+      "correlation_method": "None",
+      "confidence_score": 0.0,
+      "evidence": [
+        "No candidates passed minimum score threshold"
+      ]
+    },
+    {
+      "ad_computer": "WIN-2MQMGG03M1L.ASPER.LOCAL",
+      "network_host": "192.168.10.14",
+      "network_node_id": "3_HIGH",
+      "status": "MATCHED",
+      "correlation_method": "DNS",
+      "confidence_score": 0.9029,
+      "evidence": [
+        "DNS match: WIN-2MQMGG03M1L.ASPER.LOCAL resolved to 192.168.10.14 (method: fallback_config)",
+        "OS family match: Both are 'windows' (Windows Server 2022 Standard Evaluation vs Windows Server 2019)",
+        "Windows SPN presence aligned with Windows Network Host"
+      ]
+    },
+    {
+      "ad_computer": "DESKTOP-0AKA5LN.ASPER.LOCAL",
+      "network_host": null,
+      "network_node_id": null,
+      "status": "UNMATCHED",
+      "correlation_method": "None",
+      "confidence_score": 0.0,
+      "evidence": [
+        "No candidates passed minimum score threshold"
+      ]
+    }
+  ],
+  "matched": [
+    {
+      "ad_computer": "WIN-2MQMGG03M1L.ASPER.LOCAL",
+      "network_host": "192.168.10.14",
+      "network_node_id": "3_HIGH",
+      "status": "MATCHED",
+      "correlation_method": "DNS",
+      "confidence_score": 0.9029,
+      "evidence": [
+        "DNS match: WIN-2MQMGG03M1L.ASPER.LOCAL resolved to 192.168.10.14 (method: fallback_config)",
+        "OS family match: Both are 'windows' (Windows Server 2022 Standard Evaluation vs Windows Server 2019)",
+        "Windows SPN presence aligned with Windows Network Host"
+      ]
+    }
+  ],
+  "ambiguous": [],
+  "unmatched": [
+    {
+      "ad_computer": "DESKTOP-982GIQR.ASPER.LOCAL",
+      "network_host": null,
+      "network_node_id": null,
+      "status": "UNMATCHED",
+      "correlation_method": "None",
+      "confidence_score": 0.0,
+      "evidence": [
+        "No candidates passed minimum score threshold"
+      ]
+    },
+    {
+      "ad_computer": "DESKTOP-VCEDI9S.ASPER.LOCAL",
+      "network_host": null,
+      "network_node_id": null,
+      "status": "UNMATCHED",
+      "correlation_method": "None",
+      "confidence_score": 0.0,
+      "evidence": [
+        "No candidates passed minimum score threshold"
+      ]
+    },
+    {
+      "ad_computer": "DESKTOP-0AKA5LN.ASPER.LOCAL",
+      "network_host": null,
+      "network_node_id": null,
+      "status": "UNMATCHED",
+      "correlation_method": "None",
+      "confidence_score": 0.0,
+      "evidence": [
+        "No candidates passed minimum score threshold"
+      ]
+    }
+  ]
+}

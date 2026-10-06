@@ -1,0 +1,3005 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "ADComputer",
+      "id": "DESKTOP-982GIQR.ASPER.LOCAL",
+      "fqdn_original": "DESKTOP-982GIQR.ASPER.LOCAL",
+      "fqdn_normalized": "desktop-982giqr.asper.local",
+      "short_hostname": "desktop-982giqr",
+      "domain": "ASPER.LOCAL",
+      "operating_system": "Windows 11 Pro",
+      "os_family": "windows",
+      "is_dc": false,
+      "enabled": true,
+      "spns": [
+        "TERMSRV/DESKTOP-982GIQR",
+        "TERMSRV/DESKTOP-982GIQR.asper.local",
+        "RestrictedKrbHost/DESKTOP-982GIQR",
+        "HOST/DESKTOP-982GIQR",
+        "RestrictedKrbHost/DESKTOP-982GIQR.asper.local",
+        "HOST/DESKTOP-982GIQR.asper.local"
+      ],
+      "sessions": [],
+      "raw_properties": {
+        "domain": "ASPER.LOCAL",
+        "name": "DESKTOP-982GIQR.ASPER.LOCAL",
+        "distinguishedname": "CN=DESKTOP-982GIQR,CN=COMPUTERS,DC=ASPER,DC=LOCAL",
+        "domainsid": "S-1-5-21-1488405978-1644055922-2108246984",
+        "samaccountname": "DESKTOP-982GIQR$",
+        "enabled": true,
+        "operatingsystem": "Windows 11 Pro",
+        "serviceprincipalnames": [
+          "TERMSRV/DESKTOP-982GIQR",
+          "TERMSRV/DESKTOP-982GIQR.asper.local",
+          "RestrictedKrbHost/DESKTOP-982GIQR",
+          "HOST/DESKTOP-982GIQR",
+          "RestrictedKrbHost/DESKTOP-982GIQR.asper.local",
+          "HOST/DESKTOP-982GIQR.asper.local"
+        ]
+      }
+    },
+    {
+      "type": "ADDomain",
+      "id": "ASPER.LOCAL",
+      "name": "ASPER.LOCAL",
+      "sid": "S-1-5-21-1488405978-1644055922-2108246984"
+    },
+    {
+      "type": "ADComputer",
+      "id": "DESKTOP-VCEDI9S.ASPER.LOCAL",
+      "fqdn_original": "DESKTOP-VCEDI9S.ASPER.LOCAL",
+      "fqdn_normalized": "desktop-vcedi9s.asper.local",
+      "short_hostname": "desktop-vcedi9s",
+      "domain": "ASPER.LOCAL",
+      "operating_system": "Windows 10 Pro",
+      "os_family": "windows",
+      "is_dc": false,
+      "enabled": true,
+      "spns": [
+        "TERMSRV/DESKTOP-VCEDI9S",
+        "TERMSRV/DESKTOP-VCEDI9S.asper.local",
+        "HOST/DESKTOP-VCEDI9S",
+        "HOST/DESKTOP-VCEDI9S.asper.local"
+      ],
+      "sessions": [],
+      "raw_properties": {
+        "domain": "ASPER.LOCAL",
+        "name": "DESKTOP-VCEDI9S.ASPER.LOCAL",
+        "distinguishedname": "CN=DESKTOP-VCEDI9S,CN=COMPUTERS,DC=ASPER,DC=LOCAL",
+        "domainsid": "S-1-5-21-1488405978-1644055922-2108246984",
+        "samaccountname": "DESKTOP-VCEDI9S$",
+        "enabled": true,
+        "operatingsystem": "Windows 10 Pro",
+        "serviceprincipalnames": [
+          "TERMSRV/DESKTOP-VCEDI9S",
+          "TERMSRV/DESKTOP-VCEDI9S.asper.local",
+          "HOST/DESKTOP-VCEDI9S",
+          "HOST/DESKTOP-VCEDI9S.asper.local"
+        ]
+      }
+    },
+    {
+      "type": "ADComputer",
+      "id": "WIN-2MQMGG03M1L.ASPER.LOCAL",
+      "fqdn_original": "WIN-2MQMGG03M1L.ASPER.LOCAL",
+      "fqdn_normalized": "win-2mqmgg03m1l.asper.local",
+      "short_hostname": "win-2mqmgg03m1l",
+      "domain": "ASPER.LOCAL",
+      "operating_system": "Windows Server 2022 Standard Evaluation",
+      "os_family": "windows",
+      "is_dc": true,
+      "enabled": true,
+      "spns": [
+        "ldap/WIN-2MQMGG03M1L.asper.local",
+        "HOST/WIN-2MQMGG03M1L",
+        "HOST/WIN-2MQMGG03M1L.asper.local"
+      ],
+      "sessions": [],
+      "raw_properties": {
+        "domain": "ASPER.LOCAL",
+        "name": "WIN-2MQMGG03M1L.ASPER.LOCAL",
+        "distinguishedname": "CN=WIN-2MQMGG03M1L,OU=DOMAIN CONTROLLERS,DC=ASPER,DC=LOCAL",
+        "domainsid": "S-1-5-21-1488405978-1644055922-2108246984",
+        "samaccountname": "WIN-2MQMGG03M1L$",
+        "enabled": true,
+        "isdc": true,
+        "operatingsystem": "Windows Server 2022 Standard Evaluation",
+        "serviceprincipalnames": [
+          "ldap/WIN-2MQMGG03M1L.asper.local",
+          "HOST/WIN-2MQMGG03M1L",
+          "HOST/WIN-2MQMGG03M1L.asper.local"
+        ]
+      }
+    },
+    {
+      "type": "ADComputer",
+      "id": "DESKTOP-0AKA5LN.ASPER.LOCAL",
+      "fqdn_original": "DESKTOP-0AKA5LN.ASPER.LOCAL",
+      "fqdn_normalized": "desktop-0aka5ln.asper.local",
+      "short_hostname": "desktop-0aka5ln",
+      "domain": "ASPER.LOCAL",
+      "operating_system": "Windows 11 Pro",
+      "os_family": "windows",
+      "is_dc": false,
+      "enabled": true,
+      "spns": [
+        "WSMAN/DESKTOP-0AKA5LN",
+        "HOST/DESKTOP-0AKA5LN",
+        "HOST/DESKTOP-0AKA5LN.asper.local"
+      ],
+      "sessions": [],
+      "raw_properties": {
+        "domain": "ASPER.LOCAL",
+        "name": "DESKTOP-0AKA5LN.ASPER.LOCAL",
+        "distinguishedname": "CN=DESKTOP-0AKA5LN,CN=COMPUTERS,DC=ASPER,DC=LOCAL",
+        "domainsid": "S-1-5-21-1488405978-1644055922-2108246984",
+        "samaccountname": "DESKTOP-0AKA5LN$",
+        "enabled": true,
+        "operatingsystem": "Windows 11 Pro",
+        "serviceprincipalnames": [
+          "WSMAN/DESKTOP-0AKA5LN",
+          "HOST/DESKTOP-0AKA5LN",
+          "HOST/DESKTOP-0AKA5LN.asper.local"
+        ]
+      }
+    },
+    {
+      "type": "NetworkHost",
+      "node_id": "6_LOW",
+      "ip": "192.168.30.8",
+      "ip_original": "192.168.30.8",
+      "asset_label": "Ubuntu Server 20.04 LTS",
+      "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+      "mac_original": "02:42:c0:a8:1e:08",
+      "mac_normalized": "02:42:c0:a8:1e:08",
+      "os_family": "linux",
+      "initial_condition": "YES",
+      "vulnerabilities": [],
+      "misconfigurations": [],
+      "raw_attrs": {
+        "asset": "Ubuntu Server 20.04 LTS",
+        "version": null,
+        "ip": "192.168.30.8",
+        "mac": "02:42:c0:a8:1e:08",
+        "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+        "impact": 0,
+        "initial_condition": "YES",
+        "node_type": "asset"
+      },
+      "id": "6_LOW"
+    },
+    {
+      "type": "NetworkHost",
+      "node_id": "6_HIGH",
+      "ip": "192.168.30.8",
+      "ip_original": "192.168.30.8",
+      "asset_label": "Ubuntu Server 20.04 LTS",
+      "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+      "mac_original": "02:42:c0:a8:1e:08",
+      "mac_normalized": "02:42:c0:a8:1e:08",
+      "os_family": "linux",
+      "initial_condition": "No",
+      "vulnerabilities": [],
+      "misconfigurations": [],
+      "raw_attrs": {
+        "asset": "Ubuntu Server 20.04 LTS",
+        "version": null,
+        "ip": "192.168.30.8",
+        "mac": "02:42:c0:a8:1e:08",
+        "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+        "impact": 0,
+        "initial_condition": "No",
+        "node_type": "asset"
+      },
+      "id": "6_HIGH"
+    },
+    {
+      "type": "NetworkHost",
+      "node_id": "5_HIGH",
+      "ip": "192.168.30.4",
+      "ip_original": "192.168.30.4",
+      "asset_label": "Ubuntu Server 20.04 LTS",
+      "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+      "mac_original": "02:42:c0:a8:1e:04",
+      "mac_normalized": "02:42:c0:a8:1e:04",
+      "os_family": "linux",
+      "initial_condition": "No",
+      "vulnerabilities": [],
+      "misconfigurations": [],
+      "raw_attrs": {
+        "asset": "Ubuntu Server 20.04 LTS",
+        "version": null,
+        "ip": "192.168.30.4",
+        "mac": "02:42:c0:a8:1e:04",
+        "impact": 0,
+        "initial_condition": "No",
+        "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+        "node_type": "asset"
+      },
+      "id": "5_HIGH"
+    },
+    {
+      "type": "NetworkHost",
+      "node_id": "5_LOW",
+      "ip": "192.168.30.4",
+      "ip_original": "192.168.30.4",
+      "asset_label": "Ubuntu Server 20.04 LTS",
+      "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+      "mac_original": "02:42:c0:a8:1e:04",
+      "mac_normalized": "02:42:c0:a8:1e:04",
+      "os_family": "linux",
+      "initial_condition": "YES",
+      "vulnerabilities": [],
+      "misconfigurations": [],
+      "raw_attrs": {
+        "asset": "Ubuntu Server 20.04 LTS",
+        "version": null,
+        "ip": "192.168.30.4",
+        "mac": "02:42:c0:a8:1e:04",
+        "impact": 0,
+        "initial_condition": "YES",
+        "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+        "node_type": "asset"
+      },
+      "id": "5_LOW"
+    },
+    {
+      "type": "NetworkHost",
+      "node_id": "7_HIGH",
+      "ip": "192.168.30.2",
+      "ip_original": "192.168.30.2",
+      "asset_label": "Ubuntu Server 20.04 LTS",
+      "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+      "mac_original": "02:42:c0:a8:1e:02",
+      "mac_normalized": "02:42:c0:a8:1e:02",
+      "os_family": "linux",
+      "initial_condition": "No",
+      "vulnerabilities": [],
+      "misconfigurations": [],
+      "raw_attrs": {
+        "asset": "Ubuntu Server 20.04 LTS",
+        "version": null,
+        "ip": "192.168.30.2",
+        "mac": "02:42:c0:a8:1e:02",
+        "impact": 0,
+        "initial_condition": "No",
+        "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+        "node_type": "asset"
+      },
+      "id": "7_HIGH"
+    },
+    {
+      "type": "NetworkHost",
+      "node_id": "2_HIGH",
+      "ip": "192.168.10.37",
+      "ip_original": "192.168.10.37",
+      "asset_label": "Ubuntu Server 20.04 LTS",
+      "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+      "mac_original": "02:42:c0:a8:0a:25",
+      "mac_normalized": "02:42:c0:a8:0a:25",
+      "os_family": "linux",
+      "initial_condition": "No",
+      "vulnerabilities": [],
+      "misconfigurations": [],
+      "raw_attrs": {
+        "asset": "Ubuntu Server 20.04 LTS",
+        "version": null,
+        "ip": "192.168.10.37",
+        "mac": "02:42:c0:a8:0a:25",
+        "impact": 0,
+        "initial_condition": "No",
+        "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+        "node_type": "asset"
+      },
+      "id": "2_HIGH"
+    },
+    {
+      "type": "NetworkHost",
+      "node_id": "2_LOW",
+      "ip": "192.168.10.37",
+      "ip_original": "192.168.10.37",
+      "asset_label": "Ubuntu Server 20.04 LTS",
+      "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+      "mac_original": "02:42:c0:a8:0a:25",
+      "mac_normalized": "02:42:c0:a8:0a:25",
+      "os_family": "linux",
+      "initial_condition": "No",
+      "vulnerabilities": [],
+      "misconfigurations": [],
+      "raw_attrs": {
+        "asset": "Ubuntu Server 20.04 LTS",
+        "version": null,
+        "ip": "192.168.10.37",
+        "mac": "02:42:c0:a8:0a:25",
+        "impact": 0,
+        "initial_condition": "No",
+        "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+        "node_type": "asset"
+      },
+      "id": "2_LOW"
+    },
+    {
+      "type": "NetworkHost",
+      "node_id": "3_HIGH",
+      "ip": "192.168.10.14",
+      "ip_original": "192.168.10.14",
+      "asset_label": "Windows Server 2019",
+      "cpe": "cpe:/o:microsoft:windows_server_2019",
+      "mac_original": "02:42:c0:a8:0a:0e",
+      "mac_normalized": "02:42:c0:a8:0a:0e",
+      "os_family": "windows",
+      "initial_condition": "No",
+      "vulnerabilities": [],
+      "misconfigurations": [],
+      "raw_attrs": {
+        "asset": "Windows Server 2019",
+        "version": null,
+        "ip": "192.168.10.14",
+        "mac": "02:42:c0:a8:0a:0e",
+        "impact": 0,
+        "initial_condition": "No",
+        "cpe": "cpe:/o:microsoft:windows_server_2019",
+        "node_type": "asset"
+      },
+      "id": "3_HIGH"
+    },
+    {
+      "type": "NetworkHost",
+      "node_id": "4_HIGH",
+      "ip": "192.168.10.39",
+      "ip_original": "192.168.10.39",
+      "asset_label": "Ubuntu Desktop 20.04 LTS",
+      "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+      "mac_original": "02:42:c0:a8:0a:27",
+      "mac_normalized": "02:42:c0:a8:0a:27",
+      "os_family": "linux",
+      "initial_condition": "No",
+      "vulnerabilities": [],
+      "misconfigurations": [],
+      "raw_attrs": {
+        "asset": "Ubuntu Desktop 20.04 LTS",
+        "version": null,
+        "ip": "192.168.10.39",
+        "mac": "02:42:c0:a8:0a:27",
+        "impact": 0,
+        "initial_condition": "No",
+        "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+        "node_type": "asset"
+      },
+      "id": "4_HIGH"
+    },
+    {
+      "type": "NetworkHost",
+      "node_id": "4_LOW",
+      "ip": "192.168.10.39",
+      "ip_original": "192.168.10.39",
+      "asset_label": "Ubuntu Desktop 20.04 LTS",
+      "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+      "mac_original": "02:42:c0:a8:0a:27",
+      "mac_normalized": "02:42:c0:a8:0a:27",
+      "os_family": "linux",
+      "initial_condition": "No",
+      "vulnerabilities": [],
+      "misconfigurations": [],
+      "raw_attrs": {
+        "asset": "Ubuntu Desktop 20.04 LTS",
+        "version": null,
+        "ip": "192.168.10.39",
+        "mac": "02:42:c0:a8:0a:27",
+        "impact": 0,
+        "initial_condition": "No",
+        "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+        "node_type": "asset"
+      },
+      "id": "4_LOW"
+    },
+    {
+      "type": "NetworkHost",
+      "node_id": "1_HIGH",
+      "ip": "192.168.10.36",
+      "ip_original": "192.168.10.36",
+      "asset_label": "Ubuntu Server 20.04 LTS",
+      "cpe": "cpe:/o:ca3nonical:ubuntu_linux:20.04",
+      "mac_original": "4242klmkd4fgj:uugc9sf:a8:0a:24",
+      "mac_normalized": "4242klmkd4fgj:uugc9sf:a8:0a:24",
+      "os_family": "linux",
+      "initial_condition": "No",
+      "vulnerabilities": [],
+      "misconfigurations": [],
+      "raw_attrs": {
+        "asset": "Ubuntu Server 20.04 LTS",
+        "version": null,
+        "ip": "192.168.10.36",
+        "mac": "4242klmkd4fgj:uugc9sf:a8:0a:24",
+        "impact": 0,
+        "initial_condition": "No",
+        "cpe": "cpe:/o:ca3nonical:ubuntu_linux:20.04",
+        "node_type": "asset"
+      },
+      "id": "1_HIGH"
+    },
+    {
+      "type": "NetworkHost",
+      "node_id": "1_LOW",
+      "ip": "192.168.10.36",
+      "ip_original": "192.168.10.36",
+      "asset_label": "Ubuntu Server 20.04 LTS",
+      "cpe": "cpe:/o:ca3nonical:ubuntu_linux:20.04",
+      "mac_original": "4242klmkd4fgj:uugc9sf:a8:0a:24",
+      "mac_normalized": "4242klmkd4fgj:uugc9sf:a8:0a:24",
+      "os_family": "linux",
+      "initial_condition": "No",
+      "vulnerabilities": [],
+      "misconfigurations": [],
+      "raw_attrs": {
+        "asset": "Ubuntu Server 20.04 LTS",
+        "version": null,
+        "ip": "192.168.10.36",
+        "mac": "4242klmkd4fgj:uugc9sf:a8:0a:24",
+        "impact": 0,
+        "initial_condition": "No",
+        "cpe": "cpe:/o:ca3nonical:ubuntu_linux:20.04",
+        "node_type": "asset"
+      },
+      "id": "1_LOW"
+    },
+    {
+      "type": "NetworkHost",
+      "node_id": "11_LOW",
+      "ip": "172.16.16.18",
+      "ip_original": "172.16.16.18",
+      "asset_label": "Ubunctu Serve",
+      "cpe": "cpe:/solinughx:20.04",
+      "mac_original": "0dknc1k2",
+      "mac_normalized": "0dknc1k2",
+      "os_family": "other",
+      "initial_condition": "No",
+      "vulnerabilities": [],
+      "misconfigurations": [],
+      "raw_attrs": {
+        "asset": "Ubunctu Serve",
+        "version": null,
+        "ip": "172.16.16.18",
+        "mac": "0dknc1k2",
+        "impact": 0,
+        "initial_condition": "No",
+        "cpe": "cpe:/solinughx:20.04",
+        "node_type": "asset"
+      },
+      "id": "11_LOW"
+    },
+    {
+      "type": "NetworkHost",
+      "node_id": "12_HIGH",
+      "ip": "172.16.16.19",
+      "ip_original": "172.16.16.19",
+      "asset_label": "Ubuntu Server 20.04 LTS",
+      "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+      "mac_original": "02:42:aeefec:10:10:13",
+      "mac_normalized": "02:42:aeefec:10:10:13",
+      "os_family": "linux",
+      "initial_condition": "No",
+      "vulnerabilities": [],
+      "misconfigurations": [],
+      "raw_attrs": {
+        "asset": "Ubuntu Server 20.04 LTS",
+        "version": null,
+        "ip": "172.16.16.19",
+        "mac": "02:42:aeefec:10:10:13",
+        "impact": 0,
+        "initial_condition": "No",
+        "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+        "node_type": "asset"
+      },
+      "id": "12_HIGH"
+    },
+    {
+      "type": "NetworkHost",
+      "node_id": "12_LOW",
+      "ip": "172.16.16.19",
+      "ip_original": "172.16.16.19",
+      "asset_label": "Ubuntu Server 20.04 LTS",
+      "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+      "mac_original": "02:42:aeefec:10:10:13",
+      "mac_normalized": "02:42:aeefec:10:10:13",
+      "os_family": "linux",
+      "initial_condition": "No",
+      "vulnerabilities": [],
+      "misconfigurations": [],
+      "raw_attrs": {
+        "asset": "Ubuntu Server 20.04 LTS",
+        "version": null,
+        "ip": "172.16.16.19",
+        "mac": "02:42:aeefec:10:10:13",
+        "impact": 0,
+        "initial_condition": "No",
+        "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+        "node_type": "asset"
+      },
+      "id": "12_LOW"
+    },
+    {
+      "type": "NetworkHost",
+      "node_id": "11_HIGH",
+      "ip": "172.16.16.18",
+      "ip_original": "172.16.16.18",
+      "asset_label": "Ubunctu Serve",
+      "cpe": "cpe:/solinughx:20.04",
+      "mac_original": "0dknc1k2",
+      "mac_normalized": "0dknc1k2",
+      "os_family": "other",
+      "initial_condition": "No",
+      "vulnerabilities": [],
+      "misconfigurations": [],
+      "raw_attrs": {
+        "asset": "Ubunctu Serve",
+        "version": null,
+        "ip": "172.16.16.18",
+        "mac": "0dknc1k2",
+        "impact": 0,
+        "initial_condition": "No",
+        "cpe": "cpe:/solinughx:20.04",
+        "node_type": "asset"
+      },
+      "id": "11_HIGH"
+    },
+    {
+      "type": "NetworkHost",
+      "node_id": "13_HIGH",
+      "ip": "172.16.16.21",
+      "ip_original": "172.16.16.21",
+      "asset_label": "Ubuntu Server 20.04 LTS",
+      "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+      "mac_original": "02:42:ac:10:10:15",
+      "mac_normalized": "02:42:ac:10:10:15",
+      "os_family": "linux",
+      "initial_condition": "No",
+      "vulnerabilities": [],
+      "misconfigurations": [],
+      "raw_attrs": {
+        "asset": "Ubuntu Server 20.04 LTS",
+        "version": null,
+        "ip": "172.16.16.21",
+        "mac": "02:42:ac:10:10:15",
+        "impact": 0,
+        "initial_condition": "No",
+        "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+        "node_type": "asset"
+      },
+      "id": "13_HIGH"
+    },
+    {
+      "type": "NetworkHost",
+      "node_id": "8_HIGH",
+      "ip": "192.168.40.5",
+      "ip_original": "192.168.40.5",
+      "asset_label": "Ubutu S04 LTS",
+      "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+      "mac_original": "02:4ZSSSZ2fgh:c:a8:28:05",
+      "mac_normalized": "02:42:fc:a8:28:05",
+      "os_family": "other",
+      "initial_condition": "No",
+      "vulnerabilities": [],
+      "misconfigurations": [],
+      "raw_attrs": {
+        "asset": "Ubutu S04 LTS",
+        "version": null,
+        "ip": "192.168.40.5",
+        "mac": "02:4ZSSSZ2fgh:c:a8:28:05",
+        "impact": 0,
+        "initial_condition": "No",
+        "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+        "node_type": "asset"
+      },
+      "id": "8_HIGH"
+    },
+    {
+      "type": "NetworkHost",
+      "node_id": "8_LOW",
+      "ip": "192.168.40.5",
+      "ip_original": "192.168.40.5",
+      "asset_label": "Ubutu S04 LTS",
+      "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+      "mac_original": "02:4ZSSSZ2fgh:c:a8:28:05",
+      "mac_normalized": "02:42:fc:a8:28:05",
+      "os_family": "other",
+      "initial_condition": "No",
+      "vulnerabilities": [],
+      "misconfigurations": [],
+      "raw_attrs": {
+        "asset": "Ubutu S04 LTS",
+        "version": null,
+        "ip": "192.168.40.5",
+        "mac": "02:4ZSSSZ2fgh:c:a8:28:05",
+        "impact": 0,
+        "initial_condition": "No",
+        "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+        "node_type": "asset"
+      },
+      "id": "8_LOW"
+    },
+    {
+      "type": "NetworkHost",
+      "node_id": "10_HIGH",
+      "ip": "192.168.40.7",
+      "ip_original": "192.168.40.7",
+      "asset_label": "Ubuntu Server 20.04 LTS",
+      "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+      "mac_original": "02:42:c0:a8:28:07",
+      "mac_normalized": "02:42:c0:a8:28:07",
+      "os_family": "linux",
+      "initial_condition": "No",
+      "vulnerabilities": [],
+      "misconfigurations": [],
+      "raw_attrs": {
+        "asset": "Ubuntu Server 20.04 LTS",
+        "version": null,
+        "ip": "192.168.40.7",
+        "mac": "02:42:c0:a8:28:07",
+        "impact": 0,
+        "initial_condition": "No",
+        "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+        "node_type": "asset"
+      },
+      "id": "10_HIGH"
+    },
+    {
+      "type": "NetworkHost",
+      "node_id": "9_HIGH",
+      "ip": "192.168.40.2",
+      "ip_original": "192.168.40.2",
+      "asset_label": "Ubuntu Server 20.04 LTS",
+      "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+      "mac_original": "02:42:c0:a8:28:02",
+      "mac_normalized": "02:42:c0:a8:28:02",
+      "os_family": "linux",
+      "initial_condition": "No",
+      "vulnerabilities": [],
+      "misconfigurations": [],
+      "raw_attrs": {
+        "asset": "Ubuntu Server 20.04 LTS",
+        "version": null,
+        "ip": "192.168.40.2",
+        "mac": "02:42:c0:a8:28:02",
+        "impact": 0,
+        "initial_condition": "No",
+        "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+        "node_type": "asset"
+      },
+      "id": "9_HIGH"
+    },
+    {
+      "type": "NetworkHost",
+      "node_id": "9_LOW",
+      "ip": "192.168.40.2",
+      "ip_original": "192.168.40.2",
+      "asset_label": "Ubuntu Server 20.04 LTS",
+      "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+      "mac_original": "02:42:c0:a8:28:02",
+      "mac_normalized": "02:42:c0:a8:28:02",
+      "os_family": "linux",
+      "initial_condition": "No",
+      "vulnerabilities": [],
+      "misconfigurations": [],
+      "raw_attrs": {
+        "asset": "Ubuntu Server 20.04 LTS",
+        "version": null,
+        "ip": "192.168.40.2",
+        "mac": "02:42:c0:a8:28:02",
+        "impact": 0,
+        "initial_condition": "No",
+        "cpe": "cpe:/o:canonical:ubuntu_linux:20.04",
+        "node_type": "asset"
+      },
+      "id": "9_LOW"
+    },
+    {
+      "type": "CVE",
+      "node_id": "CVE-2021-44228_6",
+      "cve_id": "CVE-2021-44228",
+      "cve_score": "10.0",
+      "ip": "192.168.30.8",
+      "port": null,
+      "raw_attrs": {
+        "cve_id": "CVE-2021-44228",
+        "cve_score": "10.0",
+        "asset": "Ubuntu Server 20.04 LTS",
+        "ip": "192.168.30.8",
+        "port": null,
+        "source": "OS",
+        "defense_ids": [],
+        "required_access": "NONE",
+        "connection_type": "NETWORK",
+        "gained_access": "HIGH",
+        "node_type": "cve"
+      },
+      "id": "CVE-2021-44228_6"
+    },
+    {
+      "type": "CVE",
+      "node_id": "CVE-2021-44228_5",
+      "cve_id": "CVE-2021-44228",
+      "cve_score": "10.0",
+      "ip": "192.168.30.4",
+      "port": null,
+      "raw_attrs": {
+        "cve_id": "CVE-2021-44228",
+        "asset": "Ubuntu Server 20.04 LTS",
+        "cve_score": "10.0",
+        "ip": "192.168.30.4",
+        "port": null,
+        "source": "OS",
+        "defense_ids": [],
+        "required_access": "NONE",
+        "connection_type": "NETWORK",
+        "gained_access": "HIGH",
+        "node_type": "cve"
+      },
+      "id": "CVE-2021-44228_5"
+    },
+    {
+      "type": "CVE",
+      "node_id": "CVE-2016-20012_5",
+      "cve_id": "CVE-2016-20012",
+      "cve_score": "5.3",
+      "ip": "192.168.30.4",
+      "port": 22,
+      "raw_attrs": {
+        "cve_id": "CVE-2016-20012",
+        "asset": "SSH Default Credentials",
+        "cve_score": "5.3",
+        "ip": "192.168.30.4",
+        "port": 22,
+        "source": "SERVICE",
+        "defense_ids": [],
+        "required_access": "NONE",
+        "connection_type": "NETWORK",
+        "gained_access": "LOW",
+        "node_type": "cve"
+      },
+      "id": "CVE-2016-20012_5"
+    },
+    {
+      "type": "CVE",
+      "node_id": "CVE-2021-44228_7",
+      "cve_id": "CVE-2021-44228",
+      "cve_score": "10.0",
+      "ip": "192.168.30.2",
+      "port": null,
+      "raw_attrs": {
+        "cve_id": "CVE-2021-44228",
+        "asset": "Ubuntu Server 20.04 LTS",
+        "cve_score": "10.0",
+        "ip": "192.168.30.2",
+        "port": null,
+        "source": "OS",
+        "defense_ids": [],
+        "required_access": "NONE",
+        "connection_type": "NETWORK",
+        "gained_access": "HIGH",
+        "node_type": "cve"
+      },
+      "id": "CVE-2021-44228_7"
+    },
+    {
+      "type": "CVE",
+      "node_id": "CVE-2021-44228_2",
+      "cve_id": "CVE-2021-44228",
+      "cve_score": "10.0",
+      "ip": "192.168.10.37",
+      "port": null,
+      "raw_attrs": {
+        "cve_id": "CVE-2021-44228",
+        "asset": "Ubuntu Server 20.04 LTS",
+        "cve_score": "10.0",
+        "ip": "192.168.10.37",
+        "port": null,
+        "source": "OS",
+        "defense_ids": [],
+        "required_access": "NONE",
+        "connection_type": "NETWORK",
+        "gained_access": "HIGH",
+        "node_type": "cve"
+      },
+      "id": "CVE-2021-44228_2"
+    },
+    {
+      "type": "CVE",
+      "node_id": "CVE-2016-20012_2",
+      "cve_id": "CVE-2016-20012",
+      "cve_score": "5.3",
+      "ip": "192.168.10.37",
+      "port": 22,
+      "raw_attrs": {
+        "cve_id": "CVE-2016-20012",
+        "asset": "SSH Weak Authentication",
+        "cve_score": "5.3",
+        "ip": "192.168.10.37",
+        "port": 22,
+        "source": "SERVICE",
+        "defense_ids": [],
+        "required_access": "NONE",
+        "connection_type": "NETWORK",
+        "gained_access": "LOW",
+        "node_type": "cve"
+      },
+      "id": "CVE-2016-20012_2"
+    },
+    {
+      "type": "CVE",
+      "node_id": "CVE-2021-44228_3",
+      "cve_id": "CVE-2021-44228",
+      "cve_score": "10.0",
+      "ip": "192.168.10.14",
+      "port": null,
+      "raw_attrs": {
+        "cve_id": "CVE-2021-44228",
+        "asset": "Windows Server 2019",
+        "cve_score": "10.0",
+        "ip": "192.168.10.14",
+        "port": null,
+        "source": "OS",
+        "defense_ids": [],
+        "required_access": "NONE",
+        "connection_type": "NETWORK",
+        "gained_access": "HIGH",
+        "node_type": "cve"
+      },
+      "id": "CVE-2021-44228_3"
+    },
+    {
+      "type": "CVE",
+      "node_id": "CVE-2021-44228_4",
+      "cve_id": "CVE-2021-44228",
+      "cve_score": "10.0",
+      "ip": "192.168.10.39",
+      "port": null,
+      "raw_attrs": {
+        "cve_id": "CVE-2021-44228",
+        "asset": "Ubuntu Desktop 20.04 LTS",
+        "cve_score": "10.0",
+        "ip": "192.168.10.39",
+        "port": null,
+        "source": "OS",
+        "defense_ids": [],
+        "required_access": "NONE",
+        "connection_type": "NETWORK",
+        "gained_access": "HIGH",
+        "node_type": "cve"
+      },
+      "id": "CVE-2021-44228_4"
+    },
+    {
+      "type": "CVE",
+      "node_id": "CVE-2016-20012_4",
+      "cve_id": "CVE-2016-20012",
+      "cve_score": "5.3",
+      "ip": "192.168.10.39",
+      "port": 22,
+      "raw_attrs": {
+        "cve_id": "CVE-2016-20012",
+        "asset": "SSH Weak Configuration",
+        "cve_score": "5.3",
+        "ip": "192.168.10.39",
+        "port": 22,
+        "source": "SERVICE",
+        "defense_ids": [],
+        "required_access": "NONE",
+        "connection_type": "NETWORK",
+        "gained_access": "LOW",
+        "node_type": "cve"
+      },
+      "id": "CVE-2016-20012_4"
+    },
+    {
+      "type": "CVE",
+      "node_id": "CVE-2021-44228_1",
+      "cve_id": "CVE-2021-44228",
+      "cve_score": "10.0",
+      "ip": "192.168.10.36",
+      "port": null,
+      "raw_attrs": {
+        "cve_id": "CVE-2021-44228",
+        "asset": "Ubuntu Server 20.04 LTS",
+        "cve_score": "10.0",
+        "ip": "192.168.10.36",
+        "port": null,
+        "source": "OS",
+        "defense_ids": [],
+        "required_access": "NONE",
+        "connection_type": "NETWORK",
+        "gained_access": "HIGH",
+        "node_type": "cve"
+      },
+      "id": "CVE-2021-44228_1"
+    },
+    {
+      "type": "CVE",
+      "node_id": "CVE-2016-20012_1",
+      "cve_id": "CVE-2016-20012",
+      "cve_score": "5.3",
+      "ip": "192.168.10.36",
+      "port": 22,
+      "raw_attrs": {
+        "cve_id": "CVE-2016-20012",
+        "asset": "SSH Weak Authentication",
+        "cve_score": "5.3",
+        "ip": "192.168.10.36",
+        "port": 22,
+        "source": "SERVICE",
+        "defense_ids": [],
+        "required_access": "NONE",
+        "connection_type": "NETWORK",
+        "gained_access": "LOW",
+        "node_type": "cve"
+      },
+      "id": "CVE-2016-20012_1"
+    },
+    {
+      "type": "CVE",
+      "node_id": "CVE-2016-20012_11",
+      "cve_id": "CVE-2016-20012",
+      "cve_score": "5.3",
+      "ip": "172.16.16.18",
+      "port": 22,
+      "raw_attrs": {
+        "cve_id": "CVE-2016-20012",
+        "asset": "SSH Default Credentials",
+        "cve_score": "5.3",
+        "ip": "172.16.16.18",
+        "port": 22,
+        "source": "SERVICE",
+        "defense_ids": [],
+        "required_access": "NONE",
+        "connection_type": "NETWORK",
+        "gained_access": "LOW",
+        "node_type": "cve"
+      },
+      "id": "CVE-2016-20012_11"
+    },
+    {
+      "type": "CVE",
+      "node_id": "CVE-2021-44228_12",
+      "cve_id": "CVE-2021-44228",
+      "cve_score": "10.0",
+      "ip": "172.16.16.19",
+      "port": null,
+      "raw_attrs": {
+        "cve_id": "CVE-2021-44228",
+        "asset": "Ubuntu Server 20.04 LTS",
+        "cve_score": "10.0",
+        "ip": "172.16.16.19",
+        "port": null,
+        "source": "OS",
+        "defense_ids": [],
+        "required_access": "NONE",
+        "connection_type": "NETWORK",
+        "gained_access": "HIGH",
+        "node_type": "cve"
+      },
+      "id": "CVE-2021-44228_12"
+    },
+    {
+      "type": "CVE",
+      "node_id": "CVE-2016-20012_12",
+      "cve_id": "CVE-2016-20012",
+      "cve_score": "5.3",
+      "ip": "172.16.16.19",
+      "port": 22,
+      "raw_attrs": {
+        "cve_id": "CVE-2016-20012",
+        "asset": "SSH Default Credentials",
+        "cve_score": "5.3",
+        "ip": "172.16.16.19",
+        "port": 22,
+        "source": "SERVICE",
+        "defense_ids": [],
+        "required_access": "NONE",
+        "connection_type": "NETWORK",
+        "gained_access": "LOW",
+        "node_type": "cve"
+      },
+      "id": "CVE-2016-20012_12"
+    },
+    {
+      "type": "CVE",
+      "node_id": "CVE-2021-44228_11",
+      "cve_id": "CVE-2021-44228",
+      "cve_score": "10.0",
+      "ip": "172.16.16.18",
+      "port": null,
+      "raw_attrs": {
+        "cve_id": "CVE-2021-44228",
+        "asset": "Ubunctu Serve",
+        "cve_score": "10.0",
+        "ip": "172.16.16.18",
+        "port": null,
+        "source": "OS",
+        "defense_ids": [],
+        "required_access": "NONE",
+        "connection_type": "NETWORK",
+        "gained_access": "HIGH",
+        "node_type": "cve"
+      },
+      "id": "CVE-2021-44228_11"
+    },
+    {
+      "type": "CVE",
+      "node_id": "CVE-2021-44228_13",
+      "cve_id": "CVE-2021-44228",
+      "cve_score": "10.0",
+      "ip": "172.16.16.21",
+      "port": null,
+      "raw_attrs": {
+        "cve_id": "CVE-2021-44228",
+        "asset": "Ubuntu Server 20.04 LTS",
+        "cve_score": "10.0",
+        "ip": "172.16.16.21",
+        "port": null,
+        "source": "OS",
+        "defense_ids": [],
+        "required_access": "NONE",
+        "connection_type": "NETWORK",
+        "gained_access": "HIGH",
+        "node_type": "cve"
+      },
+      "id": "CVE-2021-44228_13"
+    },
+    {
+      "type": "CVE",
+      "node_id": "CVE-2021-44228_8",
+      "cve_id": "CVE-2021-44228",
+      "cve_score": "10.0",
+      "ip": "192.168.40.5",
+      "port": null,
+      "raw_attrs": {
+        "cve_id": "CVE-2021-44228",
+        "asset": "Ubutu S04 LTS",
+        "cve_score": "10.0",
+        "ip": "192.168.40.5",
+        "port": null,
+        "source": "OS",
+        "defense_ids": [],
+        "required_access": "NONE",
+        "connection_type": "NETWORK",
+        "gained_access": "HIGH",
+        "node_type": "cve"
+      },
+      "id": "CVE-2021-44228_8"
+    },
+    {
+      "type": "CVE",
+      "node_id": "CVE-2016-20012_8",
+      "cve_id": "CVE-2016-20012",
+      "cve_score": "5.3",
+      "ip": "192.168.40.5",
+      "port": 22,
+      "raw_attrs": {
+        "cve_id": "CVE-2016-20012",
+        "asset": "SSH Default Credentials",
+        "cve_score": "5.3",
+        "ip": "192.168.40.5",
+        "port": 22,
+        "source": "SERVICE",
+        "defense_ids": [],
+        "required_access": "NONE",
+        "connection_type": "NETWORK",
+        "gained_access": "LOW",
+        "node_type": "cve"
+      },
+      "id": "CVE-2016-20012_8"
+    },
+    {
+      "type": "CVE",
+      "node_id": "CVE-2021-44228_10",
+      "cve_id": "CVE-2021-44228",
+      "cve_score": "10.0",
+      "ip": "192.168.40.7",
+      "port": null,
+      "raw_attrs": {
+        "cve_id": "CVE-2021-44228",
+        "asset": "Ubuntu Server 20.04 LTS",
+        "cve_score": "10.0",
+        "ip": "192.168.40.7",
+        "port": null,
+        "source": "OS",
+        "defense_ids": [],
+        "required_access": "NONE",
+        "connection_type": "NETWORK",
+        "gained_access": "HIGH",
+        "node_type": "cve"
+      },
+      "id": "CVE-2021-44228_10"
+    },
+    {
+      "type": "CVE",
+      "node_id": "CVE-2021-44228_9",
+      "cve_id": "CVE-2021-44228",
+      "cve_score": "10.0",
+      "ip": "192.168.40.2",
+      "port": null,
+      "raw_attrs": {
+        "cve_id": "CVE-2021-44228",
+        "asset": "Ubuntu Server 20.04 LTS",
+        "cve_score": "10.0",
+        "ip": "192.168.40.2",
+        "port": null,
+        "source": "OS",
+        "defense_ids": [],
+        "required_access": "NONE",
+        "connection_type": "NETWORK",
+        "gained_access": "HIGH",
+        "node_type": "cve"
+      },
+      "id": "CVE-2021-44228_9"
+    },
+    {
+      "type": "CVE",
+      "node_id": "CVE-2016-20012_9",
+      "cve_id": "CVE-2016-20012",
+      "cve_score": "5.3",
+      "ip": "192.168.40.2",
+      "port": 22,
+      "raw_attrs": {
+        "cve_id": "CVE-2016-20012",
+        "asset": "SSH Default Credentials",
+        "cve_score": "5.3",
+        "ip": "192.168.40.2",
+        "port": 22,
+        "source": "SERVICE",
+        "defense_ids": [],
+        "required_access": "NONE",
+        "connection_type": "NETWORK",
+        "gained_access": "LOW",
+        "node_type": "cve"
+      },
+      "id": "CVE-2016-20012_9"
+    },
+    {
+      "type": "CVE",
+      "node_id": "CVE-2016-20012_6",
+      "cve_id": "CVE-2016-20012",
+      "cve_score": "5.3",
+      "ip": "192.168.30.8",
+      "port": 22,
+      "raw_attrs": {
+        "cve_id": "CVE-2016-20012",
+        "asset": "SSH Default Credentials",
+        "cve_score": "5.3",
+        "ip": "192.168.30.8",
+        "port": 22,
+        "source": "SERVICE",
+        "defense_ids": [],
+        "required_access": "NONE",
+        "connection_type": "NETWORK",
+        "gained_access": "LOW",
+        "node_type": "cve"
+      },
+      "id": "CVE-2016-20012_6"
+    },
+    {
+      "type": "Misconfiguration",
+      "node_id": "Misconfig-6_6",
+      "misconf_name": "Default Vagrant Credentials",
+      "risk_factor": "Critical",
+      "ip": "192.168.30.8",
+      "port": null,
+      "raw_attrs": {
+        "misconf_name": "Default Vagrant Credentials",
+        "risk_factor": "Critical",
+        "asset": "Ubuntu Server 20.04 LTS",
+        "ip": "192.168.30.8",
+        "port": null,
+        "source": "OS",
+        "solution_description": "Change credentials immediately.",
+        "node_type": "misconfiguration",
+        "misconfig_id": 6
+      },
+      "id": "Misconfig-6_6"
+    },
+    {
+      "type": "Misconfiguration",
+      "node_id": "Misconfig-5_5",
+      "misconf_name": "Default Vagrant Credentials",
+      "risk_factor": "Critical",
+      "ip": "192.168.30.4",
+      "port": null,
+      "raw_attrs": {
+        "misconf_name": "Default Vagrant Credentials",
+        "risk_factor": "Critical",
+        "asset": "Ubuntu Server 20.04 LTS",
+        "ip": "192.168.30.4",
+        "port": null,
+        "source": "OS",
+        "solution_description": "Change credentials immediately.",
+        "node_type": "misconfiguration",
+        "misconfig_id": 5
+      },
+      "id": "Misconfig-5_5"
+    },
+    {
+      "type": "Misconfiguration",
+      "node_id": "Misconfig-7_7",
+      "misconf_name": "Weak Scan Agent Credentials",
+      "risk_factor": "High",
+      "ip": "192.168.30.2",
+      "port": 8080,
+      "raw_attrs": {
+        "misconf_name": "Weak Scan Agent Credentials",
+        "risk_factor": "High",
+        "asset": "Scan Agent Weak Authentication",
+        "ip": "192.168.30.2",
+        "port": 8080,
+        "source": "SERVICE",
+        "solution_description": "Change to strong credentials.",
+        "node_type": "misconfiguration",
+        "misconfig_id": 7
+      },
+      "id": "Misconfig-7_7"
+    },
+    {
+      "type": "Misconfiguration",
+      "node_id": "Misconfig-2_2",
+      "misconf_name": "Default Vagrant Credentials",
+      "risk_factor": "Critical",
+      "ip": "192.168.10.37",
+      "port": null,
+      "raw_attrs": {
+        "misconf_name": "Default Vagrant Credentials",
+        "risk_factor": "Critical",
+        "asset": "Ubuntu Server 20.04 LTS",
+        "ip": "192.168.10.37",
+        "port": null,
+        "source": "OS",
+        "solution_description": "Change credentials.",
+        "node_type": "misconfiguration",
+        "misconfig_id": 2
+      },
+      "id": "Misconfig-2_2"
+    },
+    {
+      "type": "Misconfiguration",
+      "node_id": "Misconfig-3_3",
+      "misconf_name": "Weak Administrator Password",
+      "risk_factor": "Critical",
+      "ip": "192.168.10.14",
+      "port": null,
+      "raw_attrs": {
+        "misconf_name": "Weak Administrator Password",
+        "risk_factor": "Critical",
+        "asset": "Windows Server 2019",
+        "ip": "192.168.10.14",
+        "port": null,
+        "source": "OS",
+        "solution_description": "Change to strong password.",
+        "node_type": "misconfiguration",
+        "misconfig_id": 3
+      },
+      "id": "Misconfig-3_3"
+    },
+    {
+      "type": "Misconfiguration",
+      "node_id": "Misconfig-4_4",
+      "misconf_name": "Weak SSH Configuration",
+      "risk_factor": "Medium",
+      "ip": "192.168.10.39",
+      "port": 22,
+      "raw_attrs": {
+        "misconf_name": "Weak SSH Configuration",
+        "risk_factor": "Medium",
+        "asset": "SSH Weak Configuration",
+        "ip": "192.168.10.39",
+        "port": 22,
+        "source": "SERVICE",
+        "solution_description": "Configure key-based auth only.",
+        "node_type": "misconfiguration",
+        "misconfig_id": 4
+      },
+      "id": "Misconfig-4_4"
+    },
+    {
+      "type": "Misconfiguration",
+      "node_id": "Misconfig-1_1",
+      "misconf_name": "Default Vagrant Credentials",
+      "risk_factor": "Critical",
+      "ip": "192.168.10.36",
+      "port": null,
+      "raw_attrs": {
+        "misconf_name": "Default Vagrant Credentials",
+        "risk_factor": "Critical",
+        "asset": "Ubuntu Server 20.04 LTS",
+        "ip": "192.168.10.36",
+        "port": null,
+        "source": "OS",
+        "solution_description": "Change credentials.",
+        "node_type": "misconfiguration",
+        "misconfig_id": 1
+      },
+      "id": "Misconfig-1_1"
+    },
+    {
+      "type": "Misconfiguration",
+      "node_id": "Misconfig-12_12",
+      "misconf_name": "Default Vagrant Credentials",
+      "risk_factor": "Critical",
+      "ip": "172.16.16.19",
+      "port": null,
+      "raw_attrs": {
+        "misconf_name": "Default Vagrant Credentials",
+        "risk_factor": "Critical",
+        "asset": "Ubuntu Server 20.04 LTS",
+        "ip": "172.16.16.19",
+        "port": null,
+        "source": "OS",
+        "solution_description": "Change credentials immediately.",
+        "node_type": "misconfiguration",
+        "misconfig_id": 12
+      },
+      "id": "Misconfig-12_12"
+    },
+    {
+      "type": "Misconfiguration",
+      "node_id": "Misconfig-11_11",
+      "misconf_name": "Default Vagrant Credentials",
+      "risk_factor": "Critical",
+      "ip": "172.16.16.18",
+      "port": null,
+      "raw_attrs": {
+        "misconf_name": "Default Vagrant Credentials",
+        "risk_factor": "Critical",
+        "asset": "Ubunctu Serve",
+        "ip": "172.16.16.18",
+        "port": null,
+        "source": "OS",
+        "solution_description": "Change credentials immediately.",
+        "node_type": "misconfiguration",
+        "misconfig_id": 11
+      },
+      "id": "Misconfig-11_11"
+    },
+    {
+      "type": "Misconfiguration",
+      "node_id": "Misconfig-13_13",
+      "misconf_name": "Weak Scan Agent Credentials",
+      "risk_factor": "High",
+      "ip": "172.16.16.21",
+      "port": 8080,
+      "raw_attrs": {
+        "misconf_name": "Weak Scan Agent Credentials",
+        "risk_factor": "High",
+        "asset": "Scan Agent Weak Authentication",
+        "ip": "172.16.16.21",
+        "port": 8080,
+        "source": "SERVICE",
+        "solution_description": "Change to strong credentials.",
+        "node_type": "misconfiguration",
+        "misconfig_id": 13
+      },
+      "id": "Misconfig-13_13"
+    },
+    {
+      "type": "Misconfiguration",
+      "node_id": "Misconfig-8_8",
+      "misconf_name": "Default Vagrant Credentials",
+      "risk_factor": "Critical",
+      "ip": "192.168.40.5",
+      "port": null,
+      "raw_attrs": {
+        "misconf_name": "Default Vagrant Credentials",
+        "risk_factor": "Critical",
+        "asset": "Ubutu S04 LTS",
+        "ip": "192.168.40.5",
+        "port": null,
+        "source": "OS",
+        "solution_description": "Change credentials immediately.",
+        "node_type": "misconfiguration",
+        "misconfig_id": 8
+      },
+      "id": "Misconfig-8_8"
+    },
+    {
+      "type": "Misconfiguration",
+      "node_id": "Misconfig-10_10",
+      "misconf_name": "Weak Scan Agent Credentials",
+      "risk_factor": "High",
+      "ip": "192.168.40.7",
+      "port": 8080,
+      "raw_attrs": {
+        "misconf_name": "Weak Scan Agent Credentials",
+        "risk_factor": "High",
+        "asset": "Scan Agent Weak Authentication",
+        "ip": "192.168.40.7",
+        "port": 8080,
+        "source": "SERVICE",
+        "solution_description": "Change to strong credentials.",
+        "node_type": "misconfiguration",
+        "misconfig_id": 10
+      },
+      "id": "Misconfig-10_10"
+    },
+    {
+      "type": "Misconfiguration",
+      "node_id": "Misconfig-9_9",
+      "misconf_name": "Default Vagrant Credentials",
+      "risk_factor": "Critical",
+      "ip": "192.168.40.2",
+      "port": null,
+      "raw_attrs": {
+        "misconf_name": "Default Vagrant Credentials",
+        "risk_factor": "Critical",
+        "asset": "Ubuntu Server 20.04 LTS",
+        "ip": "192.168.40.2",
+        "port": null,
+        "source": "OS",
+        "solution_description": "Change credentials immediately.",
+        "node_type": "misconfiguration",
+        "misconfig_id": 9
+      },
+      "id": "Misconfig-9_9"
+    }
+  ],
+  "edges": [
+    {
+      "relationship": "MEMBER_OF_DOMAIN",
+      "source": "DESKTOP-982GIQR.ASPER.LOCAL",
+      "target": "ASPER.LOCAL"
+    },
+    {
+      "relationship": "MEMBER_OF_DOMAIN",
+      "source": "DESKTOP-VCEDI9S.ASPER.LOCAL",
+      "target": "ASPER.LOCAL"
+    },
+    {
+      "relationship": "MEMBER_OF_DOMAIN",
+      "source": "WIN-2MQMGG03M1L.ASPER.LOCAL",
+      "target": "ASPER.LOCAL"
+    },
+    {
+      "relationship": "RUNS_ON",
+      "correlation_method": "DNS",
+      "confidence_score": 0.9029,
+      "evidence": [
+        "DNS match: WIN-2MQMGG03M1L.ASPER.LOCAL resolved to 192.168.10.14 (method: fallback_config)",
+        "OS family match: Both are 'windows' (Windows Server 2022 Standard Evaluation vs Windows Server 2019)",
+        "Windows SPN presence aligned with Windows Network Host"
+      ],
+      "source": "WIN-2MQMGG03M1L.ASPER.LOCAL",
+      "target": "3_HIGH"
+    },
+    {
+      "relationship": "MEMBER_OF_DOMAIN",
+      "source": "DESKTOP-0AKA5LN.ASPER.LOCAL",
+      "target": "ASPER.LOCAL"
+    },
+    {
+      "source": "6_LOW",
+      "target": "CVE-2021-44228_6",
+      "connection": "LOCAL",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "LOCAL",
+        "service_port": null
+      }
+    },
+    {
+      "source": "6_LOW",
+      "target": "Misconfig-6_6",
+      "connection": "LOCAL",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "LOCAL",
+        "service_port": null
+      }
+    },
+    {
+      "source": "6_HIGH",
+      "target": "CVE-2021-44228_5",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "6_HIGH",
+      "target": "CVE-2016-20012_5",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "6_HIGH",
+      "target": "Misconfig-5_5",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "6_HIGH",
+      "target": "CVE-2021-44228_7",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 8080,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 8080
+      }
+    },
+    {
+      "source": "6_HIGH",
+      "target": "Misconfig-7_7",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 8080,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 8080
+      }
+    },
+    {
+      "source": "6_HIGH",
+      "target": "CVE-2021-44228_2",
+      "connection": "NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "6_HIGH",
+      "target": "CVE-2016-20012_2",
+      "connection": "NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "6_HIGH",
+      "target": "Misconfig-2_2",
+      "connection": "NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "6_HIGH",
+      "target": "CVE-2021-44228_3",
+      "connection": "NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "6_HIGH",
+      "target": "Misconfig-3_3",
+      "connection": "NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "5_HIGH",
+      "target": "CVE-2021-44228_7",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 8080,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 8080
+      }
+    },
+    {
+      "source": "5_HIGH",
+      "target": "Misconfig-7_7",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 8080,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 8080
+      }
+    },
+    {
+      "source": "5_HIGH",
+      "target": "CVE-2021-44228_6",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "5_HIGH",
+      "target": "CVE-2016-20012_6",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "5_HIGH",
+      "target": "Misconfig-6_6",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "5_HIGH",
+      "target": "CVE-2021-44228_2",
+      "connection": "NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "5_HIGH",
+      "target": "CVE-2016-20012_2",
+      "connection": "NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "5_HIGH",
+      "target": "Misconfig-2_2",
+      "connection": "NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "5_LOW",
+      "target": "CVE-2021-44228_5",
+      "connection": "LOCAL",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "LOCAL",
+        "service_port": null
+      }
+    },
+    {
+      "source": "5_LOW",
+      "target": "Misconfig-5_5",
+      "connection": "LOCAL",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "LOCAL",
+        "service_port": null
+      }
+    },
+    {
+      "source": "7_HIGH",
+      "target": "CVE-2021-44228_5",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "7_HIGH",
+      "target": "CVE-2016-20012_5",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "7_HIGH",
+      "target": "Misconfig-5_5",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "7_HIGH",
+      "target": "CVE-2021-44228_6",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "7_HIGH",
+      "target": "CVE-2016-20012_6",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "7_HIGH",
+      "target": "Misconfig-6_6",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "2_HIGH",
+      "target": "CVE-2016-20012_11",
+      "connection": "NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "2_HIGH",
+      "target": "CVE-2021-44228_12",
+      "connection": "NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "2_HIGH",
+      "target": "CVE-2016-20012_12",
+      "connection": "NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "2_HIGH",
+      "target": "Misconfig-12_12",
+      "connection": "NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "2_HIGH",
+      "target": "CVE-2021-44228_4",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "2_HIGH",
+      "target": "CVE-2016-20012_4",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "2_HIGH",
+      "target": "Misconfig-4_4",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "2_HIGH",
+      "target": "CVE-2021-44228_3",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "2_HIGH",
+      "target": "Misconfig-3_3",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "2_HIGH",
+      "target": "CVE-2021-44228_1",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "2_HIGH",
+      "target": "CVE-2016-20012_1",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "2_HIGH",
+      "target": "Misconfig-1_1",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "2_LOW",
+      "target": "CVE-2021-44228_2",
+      "connection": "LOCAL",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "LOCAL",
+        "service_port": null
+      }
+    },
+    {
+      "source": "2_LOW",
+      "target": "Misconfig-2_2",
+      "connection": "LOCAL",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "LOCAL",
+        "service_port": null
+      }
+    },
+    {
+      "source": "3_HIGH",
+      "target": "CVE-2021-44228_4",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "3_HIGH",
+      "target": "CVE-2016-20012_4",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "3_HIGH",
+      "target": "Misconfig-4_4",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "3_HIGH",
+      "target": "CVE-2021-44228_1",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "3_HIGH",
+      "target": "CVE-2016-20012_1",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "3_HIGH",
+      "target": "Misconfig-1_1",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "3_HIGH",
+      "target": "CVE-2021-44228_2",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "3_HIGH",
+      "target": "CVE-2016-20012_2",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "3_HIGH",
+      "target": "Misconfig-2_2",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "relationship": "HOSTS_IDENTITY",
+      "correlation_method": "DNS",
+      "confidence_score": 0.9029,
+      "evidence": [
+        "DNS match: WIN-2MQMGG03M1L.ASPER.LOCAL resolved to 192.168.10.14 (method: fallback_config)",
+        "OS family match: Both are 'windows' (Windows Server 2022 Standard Evaluation vs Windows Server 2019)",
+        "Windows SPN presence aligned with Windows Network Host"
+      ],
+      "source": "3_HIGH",
+      "target": "WIN-2MQMGG03M1L.ASPER.LOCAL"
+    },
+    {
+      "source": "4_HIGH",
+      "target": "CVE-2021-44228_3",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "4_HIGH",
+      "target": "Misconfig-3_3",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "4_HIGH",
+      "target": "CVE-2021-44228_1",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "4_HIGH",
+      "target": "CVE-2016-20012_1",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "4_HIGH",
+      "target": "Misconfig-1_1",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "4_HIGH",
+      "target": "CVE-2021-44228_2",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "4_HIGH",
+      "target": "CVE-2016-20012_2",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "4_HIGH",
+      "target": "Misconfig-2_2",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "4_LOW",
+      "target": "CVE-2021-44228_4",
+      "connection": "LOCAL",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "LOCAL",
+        "service_port": null
+      }
+    },
+    {
+      "source": "4_LOW",
+      "target": "Misconfig-4_4",
+      "connection": "LOCAL",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "LOCAL",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "1_HIGH",
+      "target": "CVE-2021-44228_12",
+      "connection": "NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "1_HIGH",
+      "target": "CVE-2016-20012_12",
+      "connection": "NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "1_HIGH",
+      "target": "Misconfig-12_12",
+      "connection": "NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "1_HIGH",
+      "target": "CVE-2021-44228_4",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "1_HIGH",
+      "target": "CVE-2016-20012_4",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "1_HIGH",
+      "target": "Misconfig-4_4",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "1_HIGH",
+      "target": "CVE-2021-44228_3",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "1_HIGH",
+      "target": "Misconfig-3_3",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "1_HIGH",
+      "target": "CVE-2021-44228_2",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "1_HIGH",
+      "target": "CVE-2016-20012_2",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "1_HIGH",
+      "target": "Misconfig-2_2",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "1_LOW",
+      "target": "CVE-2021-44228_1",
+      "connection": "LOCAL",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "LOCAL",
+        "service_port": null
+      }
+    },
+    {
+      "source": "1_LOW",
+      "target": "Misconfig-1_1",
+      "connection": "LOCAL",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "LOCAL",
+        "service_port": null
+      }
+    },
+    {
+      "source": "11_LOW",
+      "target": "CVE-2021-44228_11",
+      "connection": "LOCAL",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "LOCAL",
+        "service_port": null
+      }
+    },
+    {
+      "source": "11_LOW",
+      "target": "Misconfig-11_11",
+      "connection": "LOCAL",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "LOCAL",
+        "service_port": null
+      }
+    },
+    {
+      "source": "12_HIGH",
+      "target": "CVE-2021-44228_11",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "12_HIGH",
+      "target": "CVE-2016-20012_11",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "12_HIGH",
+      "target": "Misconfig-11_11",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "12_HIGH",
+      "target": "CVE-2021-44228_13",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 8080,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 8080
+      }
+    },
+    {
+      "source": "12_HIGH",
+      "target": "Misconfig-13_13",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 8080,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 8080
+      }
+    },
+    {
+      "source": "12_HIGH",
+      "target": "CVE-2021-44228_8",
+      "connection": "NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "12_HIGH",
+      "target": "CVE-2016-20012_8",
+      "connection": "NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "12_HIGH",
+      "target": "Misconfig-8_8",
+      "connection": "NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "12_LOW",
+      "target": "CVE-2021-44228_12",
+      "connection": "LOCAL",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "LOCAL",
+        "service_port": null
+      }
+    },
+    {
+      "source": "12_LOW",
+      "target": "Misconfig-12_12",
+      "connection": "LOCAL",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "LOCAL",
+        "service_port": null
+      }
+    },
+    {
+      "source": "11_HIGH",
+      "target": "CVE-2021-44228_12",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "11_HIGH",
+      "target": "CVE-2016-20012_12",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "11_HIGH",
+      "target": "Misconfig-12_12",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "11_HIGH",
+      "target": "CVE-2021-44228_13",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 8080,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 8080
+      }
+    },
+    {
+      "source": "11_HIGH",
+      "target": "Misconfig-13_13",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 8080,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 8080
+      }
+    },
+    {
+      "source": "11_HIGH",
+      "target": "CVE-2021-44228_8",
+      "connection": "NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "11_HIGH",
+      "target": "CVE-2016-20012_8",
+      "connection": "NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "11_HIGH",
+      "target": "Misconfig-8_8",
+      "connection": "NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "13_HIGH",
+      "target": "CVE-2021-44228_11",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "13_HIGH",
+      "target": "CVE-2016-20012_11",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "13_HIGH",
+      "target": "Misconfig-11_11",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "13_HIGH",
+      "target": "CVE-2021-44228_12",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "13_HIGH",
+      "target": "CVE-2016-20012_12",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "13_HIGH",
+      "target": "Misconfig-12_12",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "8_HIGH",
+      "target": "CVE-2021-44228_10",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 8080,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 8080
+      }
+    },
+    {
+      "source": "8_HIGH",
+      "target": "Misconfig-10_10",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 8080,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 8080
+      }
+    },
+    {
+      "source": "8_HIGH",
+      "target": "CVE-2021-44228_9",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "8_HIGH",
+      "target": "CVE-2016-20012_9",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "8_HIGH",
+      "target": "Misconfig-9_9",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "8_LOW",
+      "target": "CVE-2021-44228_8",
+      "connection": "LOCAL",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "LOCAL",
+        "service_port": null
+      }
+    },
+    {
+      "source": "8_LOW",
+      "target": "Misconfig-8_8",
+      "connection": "LOCAL",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "LOCAL",
+        "service_port": null
+      }
+    },
+    {
+      "source": "10_HIGH",
+      "target": "CVE-2021-44228_8",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "10_HIGH",
+      "target": "CVE-2016-20012_8",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "10_HIGH",
+      "target": "Misconfig-8_8",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "10_HIGH",
+      "target": "CVE-2021-44228_9",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "10_HIGH",
+      "target": "CVE-2016-20012_9",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "10_HIGH",
+      "target": "Misconfig-9_9",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "9_HIGH",
+      "target": "CVE-2021-44228_10",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 8080,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 8080
+      }
+    },
+    {
+      "source": "9_HIGH",
+      "target": "Misconfig-10_10",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 8080,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 8080
+      }
+    },
+    {
+      "source": "9_HIGH",
+      "target": "CVE-2021-44228_8",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "9_HIGH",
+      "target": "CVE-2016-20012_8",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": 22,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": 22
+      }
+    },
+    {
+      "source": "9_HIGH",
+      "target": "Misconfig-9_9",
+      "connection": "ADJACENT_NETWORK",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "ADJACENT_NETWORK",
+        "service_port": null
+      }
+    },
+    {
+      "source": "9_LOW",
+      "target": "CVE-2021-44228_9",
+      "connection": "LOCAL",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "LOCAL",
+        "service_port": null
+      }
+    },
+    {
+      "source": "9_LOW",
+      "target": "Misconfig-9_9",
+      "connection": "LOCAL",
+      "service_port": null,
+      "raw_attrs": {
+        "connection": "LOCAL",
+        "service_port": null
+      }
+    },
+    {
+      "source": "CVE-2021-44228_6",
+      "target": "6_HIGH",
+      "connection": null,
+      "service_port": null,
+      "raw_attrs": {
+        "service_port": null
+      }
+    },
+    {
+      "source": "CVE-2021-44228_5",
+      "target": "5_HIGH",
+      "connection": null,
+      "service_port": null,
+      "raw_attrs": {
+        "service_port": null
+      }
+    },
+    {
+      "source": "CVE-2016-20012_5",
+      "target": "5_LOW",
+      "connection": null,
+      "service_port": 22,
+      "raw_attrs": {
+        "service_port": 22
+      }
+    },
+    {
+      "source": "CVE-2021-44228_7",
+      "target": "7_HIGH",
+      "connection": null,
+      "service_port": 8080,
+      "raw_attrs": {
+        "service_port": 8080
+      }
+    },
+    {
+      "source": "CVE-2021-44228_2",
+      "target": "2_HIGH",
+      "connection": null,
+      "service_port": null,
+      "raw_attrs": {
+        "service_port": null
+      }
+    },
+    {
+      "source": "CVE-2016-20012_2",
+      "target": "2_LOW",
+      "connection": null,
+      "service_port": 22,
+      "raw_attrs": {
+        "service_port": 22
+      }
+    },
+    {
+      "source": "CVE-2021-44228_3",
+      "target": "3_HIGH",
+      "connection": null,
+      "service_port": null,
+      "raw_attrs": {
+        "service_port": null
+      }
+    },
+    {
+      "source": "CVE-2021-44228_4",
+      "target": "4_HIGH",
+      "connection": null,
+      "service_port": null,
+      "raw_attrs": {
+        "service_port": null
+      }
+    },
+    {
+      "source": "CVE-2016-20012_4",
+      "target": "4_LOW",
+      "connection": null,
+      "service_port": 22,
+      "raw_attrs": {
+        "service_port": 22
+      }
+    },
+    {
+      "source": "CVE-2021-44228_1",
+      "target": "1_HIGH",
+      "connection": null,
+      "service_port": null,
+      "raw_attrs": {
+        "service_port": null
+      }
+    },
+    {
+      "source": "CVE-2016-20012_1",
+      "target": "1_LOW",
+      "connection": null,
+      "service_port": 22,
+      "raw_attrs": {
+        "service_port": 22
+      }
+    },
+    {
+      "source": "CVE-2016-20012_11",
+      "target": "11_LOW",
+      "connection": null,
+      "service_port": 22,
+      "raw_attrs": {
+        "service_port": 22
+      }
+    },
+    {
+      "source": "CVE-2021-44228_12",
+      "target": "12_HIGH",
+      "connection": null,
+      "service_port": null,
+      "raw_attrs": {
+        "service_port": null
+      }
+    },
+    {
+      "source": "CVE-2016-20012_12",
+      "target": "12_LOW",
+      "connection": null,
+      "service_port": 22,
+      "raw_attrs": {
+        "service_port": 22
+      }
+    },
+    {
+      "source": "CVE-2021-44228_11",
+      "target": "11_HIGH",
+      "connection": null,
+      "service_port": null,
+      "raw_attrs": {
+        "service_port": null
+      }
+    },
+    {
+      "source": "CVE-2021-44228_13",
+      "target": "13_HIGH",
+      "connection": null,
+      "service_port": 8080,
+      "raw_attrs": {
+        "service_port": 8080
+      }
+    },
+    {
+      "source": "CVE-2021-44228_8",
+      "target": "8_HIGH",
+      "connection": null,
+      "service_port": null,
+      "raw_attrs": {
+        "service_port": null
+      }
+    },
+    {
+      "source": "CVE-2016-20012_8",
+      "target": "8_LOW",
+      "connection": null,
+      "service_port": 22,
+      "raw_attrs": {
+        "service_port": 22
+      }
+    },
+    {
+      "source": "CVE-2021-44228_10",
+      "target": "10_HIGH",
+      "connection": null,
+      "service_port": 8080,
+      "raw_attrs": {
+        "service_port": 8080
+      }
+    },
+    {
+      "source": "CVE-2021-44228_9",
+      "target": "9_HIGH",
+      "connection": null,
+      "service_port": null,
+      "raw_attrs": {
+        "service_port": null
+      }
+    },
+    {
+      "source": "CVE-2016-20012_9",
+      "target": "9_LOW",
+      "connection": null,
+      "service_port": 22,
+      "raw_attrs": {
+        "service_port": 22
+      }
+    },
+    {
+      "source": "CVE-2016-20012_6",
+      "target": "6_LOW",
+      "connection": null,
+      "service_port": 22,
+      "raw_attrs": {
+        "service_port": 22
+      }
+    },
+    {
+      "source": "Misconfig-6_6",
+      "target": "6_HIGH",
+      "connection": null,
+      "service_port": null,
+      "raw_attrs": {
+        "service_port": null
+      }
+    },
+    {
+      "source": "Misconfig-5_5",
+      "target": "5_HIGH",
+      "connection": null,
+      "service_port": null,
+      "raw_attrs": {
+        "service_port": null
+      }
+    },
+    {
+      "source": "Misconfig-7_7",
+      "target": "7_HIGH",
+      "connection": null,
+      "service_port": 8080,
+      "raw_attrs": {
+        "service_port": 8080
+      }
+    },
+    {
+      "source": "Misconfig-2_2",
+      "target": "2_HIGH",
+      "connection": null,
+      "service_port": null,
+      "raw_attrs": {
+        "service_port": null
+      }
+    },
+    {
+      "source": "Misconfig-3_3",
+      "target": "3_HIGH",
+      "connection": null,
+      "service_port": null,
+      "raw_attrs": {
+        "service_port": null
+      }
+    },
+    {
+      "source": "Misconfig-4_4",
+      "target": "4_HIGH",
+      "connection": null,
+      "service_port": 22,
+      "raw_attrs": {
+        "service_port": 22
+      }
+    },
+    {
+      "source": "Misconfig-1_1",
+      "target": "1_HIGH",
+      "connection": null,
+      "service_port": null,
+      "raw_attrs": {
+        "service_port": null
+      }
+    },
+    {
+      "source": "Misconfig-12_12",
+      "target": "12_HIGH",
+      "connection": null,
+      "service_port": null,
+      "raw_attrs": {
+        "service_port": null
+      }
+    },
+    {
+      "source": "Misconfig-11_11",
+      "target": "11_HIGH",
+      "connection": null,
+      "service_port": null,
+      "raw_attrs": {
+        "service_port": null
+      }
+    },
+    {
+      "source": "Misconfig-13_13",
+      "target": "13_HIGH",
+      "connection": null,
+      "service_port": 8080,
+      "raw_attrs": {
+        "service_port": 8080
+      }
+    },
+    {
+      "source": "Misconfig-8_8",
+      "target": "8_HIGH",
+      "connection": null,
+      "service_port": null,
+      "raw_attrs": {
+        "service_port": null
+      }
+    },
+    {
+      "source": "Misconfig-10_10",
+      "target": "10_HIGH",
+      "connection": null,
+      "service_port": 8080,
+      "raw_attrs": {
+        "service_port": 8080
+      }
+    },
+    {
+      "source": "Misconfig-9_9",
+      "target": "9_HIGH",
+      "connection": null,
+      "service_port": null,
+      "raw_attrs": {
+        "service_port": null
+      }
+    }
+  ]
+}

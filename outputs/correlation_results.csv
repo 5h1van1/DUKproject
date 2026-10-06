@@ -1,0 +1,5 @@
+ad_computer,network_host,network_node_id,status,correlation_method,confidence_score,evidence
+DESKTOP-982GIQR.ASPER.LOCAL,,,UNMATCHED,None,0.0,No candidates passed minimum score threshold
+DESKTOP-VCEDI9S.ASPER.LOCAL,,,UNMATCHED,None,0.0,No candidates passed minimum score threshold
+WIN-2MQMGG03M1L.ASPER.LOCAL,192.168.10.14,3_HIGH,MATCHED,DNS,0.9029,DNS match: WIN-2MQMGG03M1L.ASPER.LOCAL resolved to 192.168.10.14 (method: fallback_config) | OS family match: Both are 'windows' (Windows Server 2022 Standard Evaluation vs Windows Server 2019) | Windows SPN presence aligned with Windows Network Host
+DESKTOP-0AKA5LN.ASPER.LOCAL,,,UNMATCHED,None,0.0,No candidates passed minimum score threshold
