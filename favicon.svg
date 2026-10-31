@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="48" fill="#15803d"/>
+  <!-- Cricket Bat & Ball motif -->
+  <path d="M28 72 L62 38 C64 36 67 36 69 38 L72 41 C74 43 74 46 72 48 L38 82 Z" fill="#f59e0b" stroke="#78350f" stroke-width="2"/>
+  <rect x="22" y="76" width="10" height="4" rx="2" transform="rotate(-45 22 76)" fill="#fff"/>
+  <circle cx="68" cy="68" r="10" fill="#dc2626" stroke="#fff" stroke-width="2"/>
+  <path d="M62 65 C66 67 66 71 74 71" stroke="#fff" stroke-width="1.5" fill="none"/>
+</svg>
