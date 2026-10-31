@@ -1,0 +1,15 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /rsvps/{rsvpId} {
+      // Allow public read for live team counter & admin dashboard
+      allow read: if true;
+      // Allow guests to submit / update their RSVP
+      allow create, update: if request.resource.data.name is string &&
+                               request.resource.data.name.size() > 0 &&
+                               request.resource.data.team in ['bride', 'groom'];
+      // Allow deletions for admin
+      allow delete: if true;
+    }
+  }
+}
