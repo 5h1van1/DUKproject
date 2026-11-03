@@ -28,18 +28,9 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.env
-.env.local
-.env.*.local
 
-
-# Legacy workspace files
-first.txt
-inputcontroller.txt
-mtss-header-bg.png
-packed hang.txt
-single player il image updation.txt
-usecase.png
-prep/
-srp/
-
+# IDE & System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
